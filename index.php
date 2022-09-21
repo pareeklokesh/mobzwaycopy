@@ -237,6 +237,91 @@
 				</div>
 			</div>
 
+			<!-- ============Ucasino Tabs============== -->
+
+			<div class="product_item product_item_ucasion" id="Slots">
+					<div class="product_item_full">
+					<div class="product_img">
+						<img src="assets/img/slots_big_icon.png" class="w-100" />
+					</div>
+					<div class="product_content">
+						<h3>Slots</h3>
+						<p>Effective and customized sportsbook – wildest range of sports, events, oddEnormous collection of slot games from providers all around the globe like NetEnt’s Starburst and Gonzo’s quest, Novomatic’s Book of Ra and Barcrest’s Rainbow Riches.</p>
+						<ul class="product_list d-flex p-0 justify-content-center" style="flex-wrap:wrap;">
+							<li>
+								<strong>  16K+</strong> Slot games
+							</li>
+							<li>
+								<strong> 150+</strong>Providers
+							</li>
+							<li>
+								<strong> 1</strong> Integration
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+				<div class="product_item product_item_ucasion" id="Live_Casino">
+					<div class="product_item_full">
+					<div class="product_img">
+						<img src="assets/img/live_casino_big_icon.png" class="w-100" />
+					</div>
+					<div class="product_content">
+						<h3>Live Casino</h3>
+						<p>A massive selection of live games from 18 prominent live casino providers engaging every market and every type of player.</p>
+						<ul class="product_list d-flex p-0 justify-content-center" style="flex-wrap:wrap;">
+							<li>
+								<strong> 120+</strong> Esports
+							</li>
+							<li>
+								<strong> 18+</strong> Pre-match events
+							</li>
+							<li>
+								<strong> 1</strong>  Integration
+							</li>
+						</ul>
+					</div>
+				</div>
+				</div>
+				<div class="product_item product_item_ucasion" id="Additional">
+					<div class="product_item_full">
+					<div class="product_img">
+						<img src="assets/img/additional_games_big_icon.png" class="w-100" />
+					</div>
+					<div class="product_content">
+						<h3>Additional games</h3>
+						<p>Wheel of Fortune, Cards, Lotto, Keno, and Bingo – playing favorites from industry-leading providers.</p>
+						<ul class="product_list d-flex p-0 justify-content-center" style="flex-wrap:wrap;">
+							<li>
+								<strong> 70+</strong>  Broadcasts
+							</li>
+							<li>
+								<strong> 10+</strong>  Games studios
+							</li>
+							<li>
+								<strong> 1</strong> Integration
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+				<div class="product_item product_item_ucasion" id="Skill-based">
+					<div class="product_item_full">
+					<div class="product_img">
+						<img src="assets/img/nonsports_big_icon.png" class="w-100" />
+					</div>
+					<div class="product_content">
+						<h3>Skill-based games</h3>
+						<p>A massive selection of live games from 18 prominent live casino providers engaging every market and every type of player.</p>
+							
+					</div>
+				</div>
+			</div>
+
+			<!-- ============Ucasino Tabs End============== -->
+
 			</div>
 		</div>
 		<div class="col-md-7" style="padding-left: 90px;">
@@ -255,13 +340,13 @@
 				<button class="btn-product tablinks" onmouseover="openCity(event, 'Non-sports')">Non-sports betting</button>
 			</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 ucasion_btn">
 				<h2 class="product_title">Ucasino</h2>
 				<div class="w-100 d-flex" style="flex-wrap:wrap;">
-				<button class="btn-product">Slots</button>
-				<button class="btn-product">Live Casino</button>
-				<button class="btn-product">Additional games</button>
-				<button class="btn-product">Skill-based games</button>
+				<button class="btn-product" onmouseover="openCity(event, 'Slots')">Slots</button>
+				<button class="btn-product" onmouseover="openCity(event, 'Live_Casino')">Live Casino</button>
+				<button class="btn-product" onmouseover="openCity(event, 'Additional')">Additional games</button>
+				<button class="btn-product" onmouseover="openCity(event, 'Skill-based')">Skill-based games</button>
 			</div>
 			</div>
 		</div>
