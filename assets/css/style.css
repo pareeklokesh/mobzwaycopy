@@ -423,3 +423,17 @@ opacity: 0;
 .product_item_active .product_content {
   opacity: 1;
 }
+.product_item_ucasion .product_img::before {
+  background: #ffc32a;
+border-radius: 12px;
+}
+.btn-product:hover {
+  background: rgba(110,0,163,.1);
+border-color: transparent;
+color: #6e00a3;
+}
+.ucasion_btn .btn-product:hover {
+  background: rgba(255,195,42,.1);
+color: #ffc32a;
+border-color: transparent;
+}
