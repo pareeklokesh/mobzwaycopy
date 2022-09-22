@@ -639,9 +639,36 @@ display: none;
 .header.sticky .header_nav_menu li a:hover {
   box-shadow: inset 0 -1px 0 0 #ff7f00;
 }
+.header_top_contact {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  float: right;
+  margin-bottom: 5px;
+}
+.header_top_contact li a {
+  color: #484848;
+font-size: 14px;
+transition: .2s;
+text-decoration: none;
+line-height: 28px;
+opacity: .7;text-decoration: none;
+margin-right: 18px;
+display: flex;
+align-items: center;
+}
+.header_top_contact li a i {
+  margin-right: 6px;
+}
+.header_top_contact li:last-child a, .header_nav_menu li:last-child {
+  margin-right: 10px;
+}
 
 
 @media (max-width: 991px) {
+  .header_top_contact {
+  display: none;
+}
   .header.sticky .header_nav {
   top: 62px;
 }
