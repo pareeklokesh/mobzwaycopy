@@ -558,8 +558,85 @@ footer {
   background: transparent;
   display: none;
 }
+.chat_btn {
+  transform: rotate(-90deg) translate(20px);
+  background: linear-gradient(95deg, rgb(110, 0, 163) 20%, rgb(110, 0, 163) 80%);
+  border: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 34px;
+  color: #fff;
+  box-shadow: 0 12px 14px 8px rgba(0,0,0,.17);
+  height: 40px;
+  position: fixed;
+  z-index: 9999999;
+  right: -88px;
+top: 50%;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 15px;
+
+}
+.chat_btn i {
+  margin-right: 5px;
+}
+.whatsapp_chat, .btn_chat {
+  font-size: 20px;
+  color: #fff !important;
+  background-color: #57BB63;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  bottom: 10px;
+  z-index: 99;
+}
+.fa.fa-phone-alt::before {
+  content: "\f095";
+}
+.btn_chat {
+  position: static;
+}
+.fix_chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff3ea;
+  position: fixed;
+  bottom: 0;
+  padding: 8px 15px;
+box-shadow: 0 -1px 8px 0px rgba(0,0,0,.25);
+display: none;
+}
+.chat_btn_dsk {
+  display: flex;
+}
+.fa.fa-linkedin-in::before {
+  content: "\f0e1";
+}
+.social_icon li a i {
+  color: #f98633;
+  font-size: 16px;
+}
+
 
 @media (max-width: 991px) {
+  .chat_btn i {
+  margin-right: 0;
+}
+  .chat_btn_dsk {
+    display: none;
+  }
+  .fix_chat {
+    display: flex;
+  }
+  footer {
+  margin-bottom: 56px;
+}
   .mobile_menu {
     display: block;
   }
