@@ -634,6 +634,9 @@ transform: translateY(0);
 .banner .col-lg-6:first-child {
   order: 2;
 }
+.banner .col-lg-6:last-child {
+  order: 1;
+}
 
 }
 
