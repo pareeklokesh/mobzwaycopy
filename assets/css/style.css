@@ -198,10 +198,10 @@ transition: .1s;
 border-radius: 10px;
 font-weight: 700;
 border: 0;outline: none;
-background-color: #6e00a3;
+background-color: #FF7F00;
 }
 .banner .btn_all {
-width: 280px;background-color: #6e00a3;
+width: 280px;background-color: #FF7F00;
 }
 .btn_all:hover {
   background-color: #4d0073;
@@ -668,7 +668,7 @@ align-items: center;
   padding: 8px 18px;
   border-radius: 30px;
   position: relative;
-  background: #ff7f00;
+  background: #ff7f00;color: #fff;
 }
 .header.sticky .header_nav_menu {
   align-items: center;
@@ -724,20 +724,21 @@ align-items: center;
   z-index: 99999999;
 }
 .getin_touch {
-  background-image: url(../img/touch_bg.avif);
+  /*background-image: url(../img/touch_bg.avif);
 background-size: cover;
 background-attachment: fixed;
+*/
+background: #ffe8d7;
 }
 .btn_try_demo {
   margin: 0px auto;
-  background: #fcd10a;
+  background: #FF7F00;
   border-radius: 30px;
   height: auto;
   min-width: inherit;
 padding: 8px 30px;
   width: auto;
   margin-top: 35px;
-  color: #000;
   text-transform: uppercase;
   justify-content: center;
 }
