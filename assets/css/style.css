@@ -666,6 +666,9 @@ align-items: center;
 
 
 @media (max-width: 991px) {
+  footer .col-md-8 {
+  padding-left: 15px !important;
+}
   .header_top_contact {
   display: none;
 }
