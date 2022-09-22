@@ -729,13 +729,17 @@ background-size: cover;
 background-attachment: fixed;
 }
 .btn_try_demo {
-  background: #fff;
+  margin: 0px auto;
+  background: #fcd10a;
   border-radius: 30px;
   height: auto;
-  padding: 11px 18px;
+  min-width: inherit;
+padding: 8px 30px;
   width: auto;
   margin-top: 35px;
   color: #000;
+  text-transform: uppercase;
+  justify-content: center;
 }
 .btn_try_demo img {
   filter: invert(1);
