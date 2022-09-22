@@ -134,13 +134,23 @@
     <h3>Follow us</h3>
     <ul class="footer_nav social_icon d-flex">
       <li>
-        <a href="#"><img src="assets/img/lin-icon.svg"></a>
+        <a href="#"><i class="fa fa-linkedin-in"></i></a>
       </li>
       <li>
-        <a href="#"><img src="assets/img/face-icon.svg"></a>
+        <a href="#"><i class="fa fa-facebook-f"></i></a>
       </li>
       <li>
-        <a href="#"><img src="assets/img/you-icon.svg"></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+      </li>
+
+      <li>
+        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-vk"></i></a>
       </li>
     </ul>
   </div>
@@ -163,7 +173,18 @@
   </div>
 </div>
 </div>
+</footer>
 
+<!-- Chat btn -->
+
+<button class="chat_btn chat_btn_dsk"><i class="fa fa-envelope"></i> Send us your inquiry</button>
+<a href="#" class="whatsapp_chat chat_btn_dsk" style="width: 50px;height: 50px;font-size: 30px;"><i class="fa fa-whatsapp"></i></a>
+<div class="container-fluid fix_chat">
+  <a href="#" class="whatsapp_chat btn_chat"><i class="fa fa-whatsapp"></i></a>
+  <a href="#" class="whatsapp_chat btn_chat" style="background: #fcd10a;"><i class="fa fa-phone-alt" style="color: #000;"></i></a>
+  <button class="chat_btn btn_chat" style="background:#6e00a3;transform: none;box-shadow: none;"><i class="fa fa-envelope"></i></button>
+</div>
+<!-- Chat btn End! -->
 
 <script>
 function openCity(evt, cityName) {
@@ -188,3 +209,6 @@ function openCity(evt, cityName) {
 </script>
 
 </footer>
+
+</body>
+</html>
