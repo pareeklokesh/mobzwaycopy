@@ -64,12 +64,12 @@ line-height: 1.25;
 font-weight: 400;
 color: #484848;
 }
-.footer_form .form-label {
+.footer_form .form-label, .request_qoute label {
   font-size: 14px;
   color: #484848;
   margin-bottom: 2px;
 }
-.footer_form .form-control {
+.footer_form .form-control, .request_qoute input, .request_qoute textarea {
   border: 1px solid #d3d3d3;
   background: #f3f3f3;
   border-radius: 8px;
@@ -663,11 +663,105 @@ align-items: center;
 .header_top_contact li:last-child a, .header_nav_menu li:last-child {
   margin-right: 10px;
 }
+.header_nav_menu li.request_btn button {
+  border: 0;
+  padding: 8px 18px;
+  border-radius: 30px;
+  position: relative;
+  background: #ff7f00;
+}
+.header.sticky .header_nav_menu {
+  align-items: center;
+}
+.request_qoute input {
+  width: 100%;
+  padding: 8px 15px;
+}
+.request_qoute textarea {
+  width: 100%;
+}
+.request_qoute textarea, .request_qoute input {
+  outline: none;
+}
+.request_qoute textarea:focus, .request_qoute input:focus {
+  box-shadow: 0 4px 10px 8px rgba(0,0,0,.2);
+}
+.request_qoute input[type="submit"], .request_qoute input[type="reset"] {
+  background: #ff7f00;
+  border: 0;
+  border-radius: 25px;
+  color: #111;
+  font-weight: 600;
+}
+.request_qoute input[type="reset"] {
+  background: transparent;
+  border: 1px solid #000;
+}
+.request_qoute span.yellows {
+  color: #ff7f00;
+}
+.request_qoute .pup_cotent {
+  margin: 0;
+}
+.request_qoute .modal-header .close {
+  right: 12px;
+  top: -5px;
+  color: #ff7f00;
+  opacity: 1;
+  background: transparent;
+  border: 0;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0;
+}
+.request_qoute h3 {
+  font-size: 22px;
+}
+.request_qoute .modal-header {
+  border: 0;
+}
+.request_qoute {
+  z-index: 99999999;
+}
+.getin_touch {
+  background-image: url(../img/touch_bg.avif);
+background-size: cover;
+background-attachment: fixed;
+}
+.btn_try_demo {
+  background: #fff;
+  border-radius: 30px;
+  height: auto;
+  padding: 11px 18px;
+  width: auto;
+  margin-top: 35px;
+  color: #000;
+}
+.btn_try_demo img {
+  filter: invert(1);
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 991px) {
   footer .col-md-8 {
   padding-left: 15px !important;
+}
+.header.sticky .header_nav_menu {
+  align-items: inherit;
+}
+.header_nav_menu li.request_btn button {
+  width: 100%;
 }
   .header_top_contact {
   display: none;
