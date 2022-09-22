@@ -175,6 +175,7 @@
 								<strong> 5,5K+</strong>Markets
 							</li>
 						</ul>
+						<button class="btn_all">Learn more<img src="assets/img/arrow-next.png"></button>
 					</div>
 				</div>
 			</div>
@@ -198,6 +199,7 @@
 								<strong> 400+</strong> Live events
 							</li>
 						</ul>
+						<button class="btn_all">Learn more<img src="assets/img/arrow-next.png"></button>
 					</div>
 				</div>
 				</div>
@@ -220,6 +222,7 @@
 								<strong> 1</strong> Integration
 							</li>
 						</ul>
+						<button class="btn_all">Learn more<img src="assets/img/arrow-next.png"></button>
 					</div>
 				</div>
 			</div>
@@ -258,6 +261,7 @@
 								<strong> 1</strong> Integration
 							</li>
 						</ul>
+						<button class="btn_all">Learn more<img src="assets/img/arrow-next.png"></button>
 					</div>
 				</div>
 			</div>
@@ -281,6 +285,7 @@
 								<strong> 1</strong>  Integration
 							</li>
 						</ul>
+						<button class="btn_all">Learn more<img src="assets/img/arrow-next.png"></button>
 					</div>
 				</div>
 				</div>
@@ -303,6 +308,7 @@
 								<strong> 1</strong> Integration
 							</li>
 						</ul>
+						<button class="btn_all">Learn more<img src="assets/img/arrow-next.png"></button>
 					</div>
 				</div>
 			</div>
