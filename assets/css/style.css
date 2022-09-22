@@ -631,6 +631,9 @@ transform: translateY(0);
 .product_content .btn_all {
   margin-bottom: 20px;
 }
+.banner .col-lg-6:first-child {
+  order: 2;
+}
 
 }
 
