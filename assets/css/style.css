@@ -625,9 +625,26 @@ display: none;
 .footer_nav li {
   margin-bottom: 0;
 }
+.header.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  background: #ffe8d7;
+  padding: 15px 20px;
+  box-shadow: 0 0 4px 4px rgba(0,0,0,.25);
+}
+.header.sticky .header_nav_menu li a {
+  padding-bottom: 3px;
+}
+.header.sticky .header_nav_menu li a:hover {
+  box-shadow: inset 0 -1px 0 0 #ff7f00;
+}
 
 
 @media (max-width: 991px) {
+  .header.sticky .header_nav {
+  top: 62px;
+}
   .chat_btn i {
   margin-right: 0;
 }
