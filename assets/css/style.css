@@ -549,6 +549,15 @@ footer {
   width: auto;overflow: hidden;
   margin-right: 15px;
 }
+.product_content .btn_all {
+  border: 1px solid #d3d3d3;
+  color: #000;
+  text-decoration: none;
+  height: 46px;
+  transition: .2s;
+  background: transparent;
+  display: none;
+}
 
 @media (max-width: 991px) {
   .mobile_menu {
@@ -610,10 +619,28 @@ transform: translateY(0);
   position: relative;
   top: -8px;
 }
+.product_content .btn_all {
+  display: flex;
+}
+.product_content .btn_all img {
+  filter: invert(1);
+}
+.product_content .product_list {
+  display: none !important;
+}
+.product_content .btn_all {
+  margin-bottom: 20px;
+}
 
 }
 
 @media (max-width: 767px) {
+  .block-product .col-md-7 .sub-title, .block-product .col-md-7 .block_title, .block-product .col-md-7 p.sec_mt {
+  display: none;
+}
+.submite_form {
+  margin-bottom: 30px;
+}
   .block-solutions .col-md-4 {
   margin-bottom: 18px;
 }
