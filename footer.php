@@ -180,5 +180,11 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 </script>
+<script>
+  $(".mobile_menu").click(function(){
+    $(this).toggleClass("mobile_menu_open");
+    $(".header_nav").toggleClass("header_nav_open");
+  });
+</script>
 
 </footer>

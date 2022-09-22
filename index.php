@@ -3,13 +3,13 @@
 <div class="container-fluid banner">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-lg-6">
 			<h1>Sports betting and online casino platform</h1>
 			<h3>Our Platform. Your Success</h3>
 			<p>Turn your ideas into profits! Start a new business or expand an existing one – Uplatform is your assured partner on the road to achieving your goals.</p>
 			<p><button class="btn_all">Request a demo <img src="assets/img/arrow-next.png"></button></p>
 		</div>
-			<div class="col-md-6">
+			<div class="col-lg-6">
 				<img src="assets/img/banner.png" class="w-100">
 			</div>
 		</div>
@@ -151,8 +151,8 @@
 
 <!-- Product -->
 
-<div class="container-fluid block-product py-indent">
-	<div class="container">
+<div class="container-fluid block-product py-indent" style="padding-bottom:0px;">
+	<div class="container" style="border-bottom: 1px solid #d3d3d3;">
 	<div class="row">
 		<div class="col-md-5">
 			<div class="w-100 position-relative">
@@ -354,5 +354,128 @@
 	</div>
 </div>
 </div>
+
+<div class="container-fluid py-indent block-service">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="sub-title"> <span class="color-accent"></span>  DELIVERING MORE</div>
+  			<h2 class="block_title">Optimized Services</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-4">
+				<div class="w-100 turnkey_content back_office">
+					<h2>Back Office</h2>
+					<p>Track the flow of funds and gain detailed reports on your customers and their actions.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4">
+				<div class="w-100 turnkey_content back_office">
+					<h2>Bonus system</h2>
+					<p>Attract new players and keep existing ones loyal with a wide selection of proven bonus tools.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4">
+				<div class="w-100 turnkey_content back_office">
+					<h2>CRM</h2>
+					<p>Increase the profitability of your campaigns by gaining a deeper knowledge of your customers through in-depth analysis.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4">
+				<div class="w-100 turnkey_content back_office">
+					<h2>CMS</h2>
+					<p>Customize content to fit your brand, set notifications, and engage through personalized communication with the players.</p>
+				</div>
+			</div>
+		
+			<div class="col-lg-3 col-md-4">
+				<div class="w-100 turnkey_content back_office">
+					<h2>Affiliate Program</h2>
+					<p>Boost traffic and entice more players with our intuitive and attractive affiliate programs.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4">
+				<div class="w-100 turnkey_content back_office">
+					<h2>Agent Scheme</h2>
+					<p>Create an efficient and multi-level structured system in any country, attract more players, and increase your revenue.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4">
+				<div class="w-100 turnkey_content back_office">
+					<h2>Payment solutions</h2>
+					<p>Increase accessibility with all currencies and 250+ payment solutions with flexible configuration.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4">
+				<div class="w-100 turnkey_content back_office">
+					<h2>Two Support lines</h2>
+					<p>24/7 professional customer support in over 31 languages when you need it.</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<!-- block-potential -->
+<div class="container-fluid block-potential" style="padding-bottom:90px;">
+	<div class="block-potential_container">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="sub-title"> <span class="color-accent"></span> IT’S ALL ABOUT YOU</div>
+  			<h2 class="block_title">Uplatform – solutions with a personal approach</h2>
+			</div>
+			<div class="col-md-6">
+				<div class="w-100">
+					<p> Our unique solutions are built on practical knowledge and market experience, empowering you with an industry-leading sportsbook, the complete choice of products, and all the essential additional services. You’ll be Holing all the Aces, ensuring players are satisfied and entertained, your operations are smooth and on-track, and your project is enduring and delivers profitable results.</p>
+					<p> We place the highest value on support and partnership amongst all the importance of our business, and we view our achievements through the successful realization of your ideas. With our “your problem is our problem” approach, we help you succeed and accomplish fantastic results, enabling us to strive and improve as a dynamic market leader.</p>
+					<button class="btn_all" style="width: 282px;height: 62px;background: #FF7F00;margin-top: 35px;">Learn more <img src="assets/img/arrow-next.png"></button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="product_list d-flex p-0 justify-content-center years_industry" style="flex-wrap:wrap;">
+							<li>
+								<strong> 3+</strong>years in industry
+							</li>
+							<li>
+								<strong> 50+</strong>clients
+							</li>
+							<li>
+								<strong> 153%</strong>growth in 2021
+							</li>
+							<li>
+								<strong> 300+</strong>employees
+							</li>
+						</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="container-fluid block-subscribe">
+	<div class="container">
+		<div class="row align-items-center" style="padding: 30px 0;">
+			<div class="col-md-6">
+				<div class="sub-title text-white"> <span class="color-accent"></span> STAY INFORMED</div>
+  			<h2 class="block_title text-white mb-0" style="line-height: 1;margin-top: 5px;">Subscribe to our newsletter</h2>
+			</div>
+			<div class="col-md-6">
+				<div class="d-flex">
+  <div class="mb-3 w-auto pe-2">
+    <input type="email" placeholder="mail@mail.com" class="form-control" id="subscribe">
+  </div>
+  <div class="mb-3 w-auto ps-2">
+  	<button class="btn_all">Submit <img src="assets/img/arrow-next.png"></button>
+  </div>
+</div>
+			</div>
+		</div>
+		</div>
+	</div>
 
 <?php include 'footer.php'; ?>
