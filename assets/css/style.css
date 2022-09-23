@@ -776,6 +776,7 @@ padding: 8px 30px;
   left: inherit;
   bottom: -2px;
   float: right;
+  width: 368px;
 }
 .right_modal .modal-dialog .modal-content {
   border-radius: .3rem .3rem 0 0;
@@ -958,6 +959,9 @@ transform: translateY(0);
 }
 
 @media (max-width: 767px) {
+  .right_modal .modal-dialog {
+    width: 100%;
+  }
   .block-product .col-md-7 .sub-title, .block-product .col-md-7 .block_title, .block-product .col-md-7 p.sec_mt {
   display: none;
 }
