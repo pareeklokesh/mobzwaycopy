@@ -758,6 +758,30 @@ padding: 8px 30px;
   display: none;
 }
 
+.right_modal {
+  top: inherit;
+  bottom: 0;
+  left: inherit;
+  right: 0px;
+}
+.right_modal .modal-dialog {
+  margin: 0;
+  right: 60px;
+  left: inherit;
+  bottom: 5px;position: absolute;
+}
+.right_modal .modal-dialog {
+  margin: 0;
+  right: 60px;
+  left: inherit;
+  bottom: -2px;
+  float: right;
+}
+.right_modal .modal-dialog .modal-content {
+  border-radius: .3rem .3rem 0 0;
+}
+
+
 
 
 
@@ -771,6 +795,9 @@ padding: 8px 30px;
 
 
 @media (max-width: 991px) {
+  .right_modal .modal-dialog {
+  right: 0px;
+}
   .request_qoute h3 {
   font-size: 18px;
 }
