@@ -880,28 +880,46 @@ Area Jaipur, (Raj) India
 
 
                         <div class="row">
-                            <div class="col-md-6 col-xs-6 col-6 mb-2">
-                                <label for="fname">First Name<span style="color:red;">*</span></label>
-                                <input type='text' id='First_Name' name='First Name' maxlength='40' />
+                            <div class="col-md-6 col-xs-6 col-6 mb-3 d-mobile">
+                                
+                                <input type='text' id='First_Name' class="forminput" placeholder="First Name" name='First Name' maxlength='40' />
                             </div>
-                            <div class="col-md-6 col-xs-6 col-6 mb-2">
-                                <label for="lname">Last Name<span style="color:red;">*</span></label>
-                                <input type='text' id='Last_Name' name='Last Name' maxlength='80'>
+                            <div class="col-md-6 col-xs-6 col-6 mb-3 d-mobile">
+                                
+                                <input type='text' id='Last_Name' class="forminput" placeholder="Last Name" name='Last Name' maxlength='80'>
                             </div>
-                            <div class="col-md-6 mb-2">
-                                <label for="email">Email<span style="color:red;">*</span></label>
-                                <input type='text' ftype='email' id='Email' name='Email' maxlength='100'>
+                            <div class="col-md-12 d-desktop mb-3">
+                                
+                                <input type='text' id='Last_Name' class="forminput" placeholder="Enter Name" name='Last Name' maxlength='80'>
                             </div>
-                            <div class="col-md-6 mb-2">
-                                <label for="mobile">Mobile<span style="color:red;">*</span></label>
-                                <input type='text' id='Mobile' name='Mobile' maxlength='30'>
+                            <div class="col-md-6 mb-3">
+                                
+                                <input type='text' ftype='email' class="forminput" id='Email' placeholder="Email" name='Email' maxlength='100'>
                             </div>
-                            <div class="col-md-12 mb-2">
-                                <label for="requirement">Requirement </label>
-                                <textarea id='Description' name='Description'></textarea>
+                            <div class="col-md-6 mb-3">
+                                
+                                <input type='text' id='Mobile' class="forminput" placeholder="Mobile" name='Mobile' maxlength='30'>
+                            </div>
+                            <div class="col-md-12 mb-3 d-mobile">
+                                
+                                <textarea id='Description' placeholder="Requirement" name='Description'></textarea>
+                            </div>
+                            <div class="col-md-12 mb-3 d-desktop">
+                              <select class="form-select" aria-label="Default select example">
+                                <option selected>Requirement</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                            </div>
+                            <div class="col-md-12 d-desktop">
+                              <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck11">
+                              <label class="form-check-label" for="exampleCheck11"> Please confirm you <a href="#">consent</a> to your personal information being processed and shared with third parties</label>
+                            </div>
                             </div>
 
-                             <div class="col-md-12mb-2">
+                             <div class="col-md-12">
                                 <label for="">Captcha </label>
                                 <center>
                                 <div class="zcwf_col_fld"><div class='g-recaptcha' data-sitekey='6LerTcAZAAAAAPCp-yqkRPmgR8ihu3CrcIZA0bD-' data-theme='light' data-callback='rccallback1742164000001858039' captcha-verified='false' id='recap1742164000001858039'></div>
@@ -912,12 +930,12 @@ Area Jaipur, (Raj) India
                             <div class="row">
                             <div class="col-md-6 col-xs-6 col-6">
                                 <div class="btn_outer">
-                                    <input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Submit' title='Submit'>
+                                    <input type='submit' id='formsubmit' class='formsubmit zcwf_button forminput' value='Submit' title='Submit'>
                                 </div>
                             </div>
                             <div class="col-md-6 col-xs-6 col-6">
                                 <div class="btn_outer">
-                                    <input type='reset' class='zcwf_button' name='reset' value='Reset' title='Reset'>
+                                    <input type='reset' class='zcwf_button forminput' name='reset' value='Reset' title='Reset'>
                                 </div>
                             </div>
                           </div>
