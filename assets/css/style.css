@@ -768,7 +768,7 @@ padding: 8px 30px;
   margin: 0;
   right: 60px;
   left: inherit;
-  bottom: 5px;position: absolute;
+  bottom: 5px;/*position: absolute;*/
 }
 .right_modal .modal-dialog {
   margin: 0;
@@ -777,6 +777,19 @@ padding: 8px 30px;
   bottom: -2px;
   float: right;
   width: 368px;
+}
+
+.modal.fade.right_modal .modal-dialog {
+  transition: transform .3s ease-out;
+  transform: translateX(338%) !important;
+}
+.modal.right_modal.show .modal-dialog {
+  transform: none !important;
+}
+.right_modal.show {
+  display: grid !important;
+  justify-content: end;
+  align-items: end;
 }
 .right_modal .modal-dialog .modal-content {
   border-radius: .3rem .3rem 0 0;
