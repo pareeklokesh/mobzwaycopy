@@ -778,10 +778,16 @@ padding: 8px 30px;
   float: right;
   width: 368px;
 }
-
+.header {
+  width: 100%;
+  max-width: 100%;
+}
 .modal.fade.right_modal .modal-dialog {
   transition: transform .3s ease-out;
   transform: translateX(338%) !important;
+}
+.right_modal .zcwf_col_fld, .right_modal #recapErr1742164000001858039 {
+  display: none;
 }
 .modal.right_modal.show .modal-dialog {
   transform: none !important;
