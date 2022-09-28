@@ -771,7 +771,7 @@ padding: 8px 30px;
 }
 .right_modal .modal-dialog {
   margin: 0;
-  right: 60px;
+  right: 0px;
   left: inherit;
   bottom: -2px;
   float: right;
