@@ -840,9 +840,16 @@ padding: 8px 30px;
 .request_qoute .form-check .form-check-input {
   box-shadow: none !important;
 }
+#error_message {
+  color: red;
+  font-size: 14px;
+}
 
 
-
+.error_message {
+  color: red;
+  font-size: 14px;
+}
 
 
 
