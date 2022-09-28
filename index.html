@@ -970,39 +970,35 @@ Area Jaipur, (Raj) India
             </div>
             <div class="modal-body">
 
-                <div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm' style='background-color: white;color: black;max-width: 600px;'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-   <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
-   <!-- <script src='https://www.google.com/recaptcha/api.js' async defer></script> -->
-<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1742164000001858039 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory1742164000001858039()' accept-charset='UTF-8'>
- <input type='text' style='display:none;' name='xnQsjsdp' value='89a4c4e1cd2b8d798a13869a512e0430f10d4e54011dc2ab6ecb48142704f733'></input> 
- <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
- <input type='text' style='display:none;' name='xmIwtLD' value='c6e4fdd49e7ece532078ecf1f399f64de7ac44b920ea899066415dca11735926'></input> 
- <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
- <input type='text' style='display:none;' name='returnURL' value='https://www.mobzway.com/thank-you/' > </input>
-   <!-- Do not remove this code. -->
-   <input type='text' style='display:none;' id='ldeskuid' name='ldeskuid'></input>
-   <input type='text' style='display:none;' id='LDTuvid' name='LDTuvid'></input>
-   <!-- Do not remove this code. -->
+               
+<form  action="" id="myform" onsubmit="return validate();">
+ 
                         
 
 
                         <div class="row">
+                          <div class="col-md-12 mb-3" id="error_message">
+                            
+                          </div>
                             <div class="col-md-12 mb-3">
                                 
-                                <input type='text' id='Last_Name' class="forminput" placeholder="Enter Name" name='Last Name' maxlength='80'>
+                                <input type='text' id='enter_name' class="forminput" placeholder="Enter Name">
+                                <span class="error_message" id="name_error"></span>
                             </div>
                             <div class="col-md-6 mb-3">
                                 
-                                <input type='text' ftype='email' class="forminput" id='Email' placeholder="Email" name='Email' maxlength='100'>
+                                <input type='text' class="forminput" id='enter_email' placeholder="Email">
+                                <span class="error_message" id="email_error"></span>
                             </div>
                             <div class="col-md-6 mb-3">
                                 
-                                <input type='text' id='Mobile' class="forminput" placeholder="Mobile" name='Mobile' maxlength='30'>
+                                <input type='text' id='enter_number' class="forminput" placeholder="Mobile">
+                                <span class="error_message" id="phone_error"></span>
                             </div>
                             <div class="col-md-12 mb-3 d-mobile">
                                 
-                                <textarea id="" placeholder="Requirement" name="Description"></textarea>
+                                <textarea id="enter_msg" placeholder="Requirement"></textarea>
+                                <span class="error_message" id="msg_error"></span>
                             </div>
                             <div class="col-md-12">
                               <div class="mb-2 form-check">
@@ -1022,7 +1018,7 @@ Area Jaipur, (Raj) India
                             <div class="row">
                             <div class="col-md-6 col-xs-6 col-6">
                                 <div class="btn_outer">
-                                    <input type='submit' id='formsubmit' class='formsubmit zcwf_button forminput' value='Submit' title='Submit'>
+                                    <input type='submit' id='form_submit' class='formsubmit forminput' value='Submit'>
                                 </div>
                             </div>
                             <div class="col-md-6 col-xs-6 col-6">
@@ -1031,7 +1027,6 @@ Area Jaipur, (Raj) India
                                 </div>
                             </div>
                           </div>
-                        </div>
 
 
                         
@@ -1078,7 +1073,55 @@ function openCity(evt, cityName) {
           });
 </script>
 
-</footer>
+
+
+<script>
+  function validate(){
+    debugger
+  var name = document.getElementById("enter_name").value;
+  var message = document.getElementById("enter_msg").value;
+  var phone = document.getElementById("enter_number").value;
+  var email = document.getElementById("enter_email").value;
+  var error_message = document.getElementById("error_message");
+  
+  
+  var text;
+  if(name.length < 5){
+    text = "Please Enter valid Name";
+    $("#name_error").html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(email.indexOf("@") == -1 || email.length < 6){
+    text = "Please Enter valid Email";
+    $("#email_error").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(isNaN(phone) || phone.length != 10){
+    text = "Please Enter valid Phone Number";
+    $("#phone_error").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(message.length <= 140){
+    text = "Please Enter More Than 140 Characters";
+    $("#msg_error").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  alert("Form Submitted Successfully!");
+  return true;
+}
+</script>
 
 </body>
 </html>
