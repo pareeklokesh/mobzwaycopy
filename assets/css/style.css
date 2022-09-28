@@ -5,13 +5,9 @@ body {
 }
 .header {
   max-width: 1500px;
-  padding: 15px 20px;
+  padding: 27px 20px;
   margin: 0 auto;
-  background-color: #fcd009;
-  padding-top: 8px;
-}
-.header_logo {
-  background: #000;
+  background-color: rgba(249,134,51,.1);
 }
 .header_logo img {
   width: 190px;
@@ -23,21 +19,20 @@ position: relative;
 }
 .header_nav_menu li a {
 font-size: 16px;
-padding: 3px 3px 3px;
+padding: 3px 3px 28px;
 font-weight: 700;
 line-height: 16px;
-color: #333 !important;
-opacity: 1;
+color: #484848;
+opacity: .6;
 display: flex;
 align-items: center;
 transition: box-shadow .2s ease-in-out;
-font-family: 'Josefin Sans', sans-serif;
 }
-/*.header_nav_menu li a:hover {
+.header_nav_menu li a:hover {
   color: #ff7f00;
 opacity: 1;
 box-shadow: inset 0 -4px 0 0 #ff7f00;
-}*/
+}
 .header_nav_menu {
   flex-direction: inherit;
 }
@@ -545,7 +540,7 @@ footer {
   display: none;
 }
 .mobile_menu span {
-  background-color: #000;
+  background-color: #ff7f00;
   width: 25px;
 height: 3px;
   display: block;
@@ -642,20 +637,16 @@ display: none;
   position: fixed;
   top: 0;
   z-index: 99999;
-  background: #fcd009;
+  background: #ffe8d7;
   padding: 15px 20px;
   box-shadow: 0 0 4px 4px rgba(0,0,0,.25);
-  padding-top: 8px;
-}
-.header_nav .navbar-nav {
-  align-items: center;
 }
 .header.sticky .header_nav_menu li a {
   padding-bottom: 3px;
 }
-/*.header.sticky .header_nav_menu li a:hover {
+.header.sticky .header_nav_menu li a:hover {
   box-shadow: inset 0 -1px 0 0 #ff7f00;
-}*/
+}
 .header_top_contact {
   display: flex;
   padding: 0;
@@ -664,13 +655,12 @@ display: none;
   margin-bottom: 5px;
 }
 .header_top_contact li a {
-  color: #000;
+  color: #484848;
 font-size: 14px;
 transition: .2s;
 text-decoration: none;
 line-height: 28px;
-opacity: .7;
-text-decoration: none;
+opacity: .7;text-decoration: none;
 margin-right: 18px;
 display: flex;
 align-items: center;
@@ -686,11 +676,7 @@ align-items: center;
   padding: 8px 18px;
   border-radius: 30px;
   position: relative;
-  background: #000000;
-  color: #fcd009;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
+  background: #ff7f00;color: #fff;
 }
 .header.sticky .header_nav_menu {
   align-items: center;
@@ -839,7 +825,7 @@ padding: 8px 30px;
 .header_nav_menu li.dropdown_menu .sub-menu li a {
   white-space: nowrap;
   font-size: 14px;
-  color: #484848 !important;
+  color: #484848;
   display: block;
   padding: 5px 19px;
   transition: color .2s ease-in-out;
@@ -863,6 +849,14 @@ padding: 8px 30px;
   color: red;
   font-size: 12px;
 }
+.header.sticky {
+  transition: opacity 300ms ease;
+  transform: translateY(-118%);
+}
+.sticky_body .header.sticky {
+  transition: transform 200ms ease;
+  transform: translateY(0);
+}
 
 
 
@@ -873,9 +867,6 @@ padding: 8px 30px;
 /* ===================Responsive==================== */
 
 @media (max-width: 991px) {
-  .header_nav .navbar-nav {
-  align-items: inherit;
-}
   .right_modal .modal-dialog {
   right: 0px;
 }
@@ -1005,32 +996,30 @@ transform: translate3d(260px,0,0);
 .call_btn {
   background: #fff;
   display: inline-block;
-  color: #000 !important;
+  color: #000;
   font-size: 14px;
-  border: 1px solid #000;
+  border: 1px solid #ff7f00;
   text-decoration: none;
   padding: 0px 0 0px 12px;
   border-radius: 30px;
 }
 .call_btn strong {
-  background: #000;
+  background: #ff7f00;
   padding: 4px 12px 3px 10px;
   border-radius: 0 11px 11px 0;
   margin-left: 3px;
-  color: #fcd009;font-weight: 400;
+  color: #ffe8d7;font-weight: 400;
 }
 .mb-center {
   text-align: center;
 }
 .call_btn {
   position: relative;
-  top: 0;
-margin-bottom: 12px;
+  top: -13px;
 }
 .sticky .call_btn {
   position: relative;
-  top: 0;
-margin-bottom: 12px;
+  top: -8px;
 }
 .mobile_menu {
   background: transparent;
@@ -1058,15 +1047,11 @@ margin-bottom: 12px;
 }
 .header_nav_menu li a {
   padding: 12px 10px 12px 15px !important;
-  color: #fff !important;
+  color: #fff;
   opacity: 1;
-  font-weight: 700;
+  font-weight: 300;
   border-top: 1px solid #212122;
   font-size: 14px;box-shadow: none !important;
-}
-.header_nav_menu li.request_btn button {
-  color: #000;
-  background: #fcd009;
 }
 .header_nav_menu .sub-menu {
   position: static;
@@ -1096,9 +1081,6 @@ margin-bottom: 12px;
   padding: 12px 15px 12px 15px !important;
   border-top: 1px solid #212122;
   margin: 0 !important;
-}
-.openNav .mobile_menu span {
-  background: #fff;
 }
 
 }
