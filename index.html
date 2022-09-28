@@ -1059,10 +1059,36 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 </script>
-<script>
+<!-- <script>
   $(".mobile_menu").click(function(){
     $(this).toggleClass("mobile_menu_open");
-    $(".header_nav").toggleClass("header_nav_open");
+    $(".header_nav").modal().toggleClass("header_nav_open");
+  });
+</script> -->
+<script defer type="text/javascript"> 
+document.addEventListener('DOMContentLoaded', function () {
+    let navToggle = document.getElementsByClassName('mobile_menu')[0];
+    const html = document.getElementsByTagName("html")[0];
+    let menu = document.getElementsByClassName('header__wrapper')[0];
+
+    navToggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        if(navToggle.contains(e.target)){
+          html.classList.toggle("openNav");
+        } 
+    });
+    document.addEventListener('click', function(e) {
+        let isClickMenu = menu.contains(e.target);
+        if (!isClickMenu) {
+          html.classList.remove("openNav");
+        }
+    });
+});
+</script>
+<script>
+  $(".dropdown_menu a").click(function(){
+    $(this).toggleClass("dropdown_menu_active");
+    $(".sub-menu").toggleClass("sub_menu_aftive");
   });
 </script>
 <script>
