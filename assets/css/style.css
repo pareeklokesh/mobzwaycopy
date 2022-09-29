@@ -857,7 +857,7 @@ padding: 8px 30px;
   transition: transform 200ms ease;
   transform: translateY(0);
 }
-.header.sticky {
+/*.header.sticky {
   background: rgb(239, 239, 239);
 }
 .header.sticky .header_nav_menu li a {
@@ -867,7 +867,7 @@ padding: 8px 30px;
 }
 .header.sticky .header_top_contact li a {
   color: #000;opacity: 1;
-}
+}*/
 .header_nav_menu li.request_btn button {position: relative;padding: 6px 10px;
   border-radius: 20px;
   padding-left: 43px;
