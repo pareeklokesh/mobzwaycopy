@@ -857,7 +857,48 @@ padding: 8px 30px;
   transition: transform 200ms ease;
   transform: translateY(0);
 }
-
+.header.sticky {
+  background: rgb(239, 239, 239);
+}
+.header.sticky .header_nav_menu li a {
+  color: #000;
+  opacity: 1;
+  font-weight: 600;
+}
+.header.sticky .header_top_contact li a {
+  color: #000;opacity: 1;
+}
+.header_nav_menu li.request_btn button {position: relative;padding: 6px 10px;
+  border-radius: 20px;
+  padding-left: 43px;
+  text-transform: uppercase;
+}
+.header_nav_menu li.request_btn button::before {
+  box-shadow: 0 0 0 rgba(255,255,255,.4);
+  animation: pulso 2s infinite;
+  transition: .5s;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: 3px solid #fff;
+  position: absolute;
+  left: 15px;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+@keyframes pulso {
+  0% {
+  box-shadow: 0 0 rgba(255,255,255,.8);
+}
+70% {
+  box-shadow: 0 0 0 20px transparent;
+}
+100% {
+  box-shadow: 0 0 transparent;
+}
+}
 
 
 
