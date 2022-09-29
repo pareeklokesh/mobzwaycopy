@@ -899,6 +899,12 @@ padding: 8px 30px;
   box-shadow: 0 0 transparent;
 }
 }
+.banner_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /*grid-template-rows: repeat(2, 18vw);*/
+  /*grid-gap: 15px;*/
+}
 
 
 
