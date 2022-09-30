@@ -905,6 +905,13 @@ padding: 8px 30px;
   /*grid-template-rows: repeat(2, 18vw);*/
   /*grid-gap: 15px;*/
 }
+.percent:after {
+    content: "+";
+    display: inline-block;
+  }
+#counter li:nth-child(3) .percent:after {
+    content: "%";
+}
 
 
 
