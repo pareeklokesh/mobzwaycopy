@@ -540,18 +540,18 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <ul class="product_list d-flex p-0 justify-content-center years_industry" style="flex-wrap:wrap;">
+        <ul id="counter" class="product_list d-flex p-0 justify-content-center years_industry" style="flex-wrap:wrap;">
               <li>
-                <strong> 3+</strong>years in industry
+                <strong class="count percent" data-count="3">0</strong>years in industry
               </li>
               <li>
-                <strong> 50+</strong>clients
+                <strong class="count percent" data-count="50">0</strong>clients
               </li>
               <li>
-                <strong> 153%</strong>growth in 2021
+                <strong class="count percent" data-count="153">0</strong>growth in 2021
               </li>
               <li>
-                <strong> 300+</strong>employees
+                <strong class="count percent" data-count="300">0</strong>employees
               </li>
             </ul>
       </div>
@@ -1223,6 +1223,39 @@ document.addEventListener('DOMContentLoaded', function () {
   $(document).ready(function(){
     $("#requestQoute").modal('show');
   });
+</script>
+<script>
+  var counted = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#counter').offset().top - window.innerHeight;
+  if (counted == 0 && $(window).scrollTop() > oTop) {
+    $('.count').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 2000,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+          }
+
+        });
+    });
+    counted = 1;
+  }
+
+});
 </script>
 
 </body>
