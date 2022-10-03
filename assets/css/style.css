@@ -14,11 +14,11 @@ body {
 }
 .header_nav_menu li {
   display: inline-block;
-  margin: 0 40px 0 0;
+  margin: 0 15px 0 0;
 position: relative;
 }
 .header_nav_menu li a {
-font-size: 16px;
+font-size: 14px;
 padding: 3px 3px 28px;
 font-weight: 700;
 line-height: 16px;
@@ -665,7 +665,7 @@ align-items: center;
   margin-right: 6px;
 }
 .header_top_contact li:last-child a, .header_nav_menu li:last-child {
-  margin-right: 10px;
+  margin-right: 0px;
 }
 .header_nav_menu li.request_btn button {
   border: 0;
@@ -827,7 +827,7 @@ padding: 8px 30px;
   transition: color .2s ease-in-out;
   font-weight: 400;
   opacity: 1;
-  background: transparent;
+  background: transparent;line-height: 24px;
 }
 .header_nav_menu li.dropdown_menu .sub-menu li {
   margin: 0;display: block;
@@ -866,8 +866,9 @@ padding: 8px 30px;
 }*/
 .header_nav_menu li.request_btn button {position: relative;padding: 6px 10px;
   border-radius: 20px;
-  padding-left: 43px;
-  text-transform: uppercase;
+  padding-left: 32px;
+text-transform: uppercase;
+font-size: 12px;
 }
 .header_nav_menu li.request_btn button::before {
   box-shadow: 0 0 0 rgba(255,255,255,.4);
@@ -878,7 +879,7 @@ padding: 8px 30px;
   height: 15px;
   border: 3px solid #fff;
   position: absolute;
-  left: 15px;
+  left: 11px;
   border-radius: 50%;
   top: 0;
   bottom: 0;
