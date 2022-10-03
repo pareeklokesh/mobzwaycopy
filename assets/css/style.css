@@ -1216,7 +1216,7 @@ right: 0;
 margin: 0px auto;
 }
 .product_img img {
-  height: 410px;
+  height: 280px;
 }
 .product_content {
   left: 0;
@@ -1251,7 +1251,7 @@ margin: 0px auto;
 .block_title, .banner h3 {
   font-size: 30px;}
 .product_item {
-  width: 100%;}
+  width: 280px;}
   .banner h1 {
   font-size: 50px;
 }
