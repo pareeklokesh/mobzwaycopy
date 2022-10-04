@@ -1,3 +1,14 @@
+
+/*@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('font/Montserrat/Montserrat-Thin.ttf') format('truetype'), url('font/Montserrat/Montserrat-Regular.ttf') format('truetype')
+  , url('font/Montserrat/Montserrat-Medium.ttf') format('truetype'), url('font/Montserrat/Montserrat-Light.ttf') format('truetype')
+  , url('font/Montserrat/Montserrat-ExtraLight.ttf') format('truetype'), url('font/Montserrat/Montserrat-ExtraBold.ttf') format('truetype')
+  , url('font/Montserrat/Montserrat-Bold.ttf') format('truetype'), url('font/Montserrat/Montserrat-Black.ttf') format('truetype')
+  , url('font/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+  font-display:swap;
+}*/
+
 body {
   font-family: 'Montserrat', sans-serif;
   color: #484848;
@@ -1269,4 +1280,262 @@ margin: 0px auto;
 .btn-product {
   font-size: 14px;
 }
+}
+
+
+/*Mobile Game Development*/
+
+.banner_other {
+  background: #6d2c90;
+}
+.banner_other p {
+  font-weight: 400;
+}
+.studios {
+  background: #faf8f5;
+}
+.description_text {
+  line-height: 24px;
+  margin: 16px 0;
+}
+.sub-title {
+  text-transform: uppercase;
+}
+.block_sub_title {
+  font-size: 28px;
+}
+.technologies_icon li {
+  list-style: none;
+  text-align: center;padding:15px;
+}
+.technologies_icon li img {
+  width: 85px;
+height: 85px;
+object-fit: cover;
+border-radius: 10px;
+padding: 10px;
+margin-bottom: 10px;
+}
+.technologies_icon {
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.technologies_icon li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  color: #000;
+  display: block;
+  text-decoration: none;
+}
+.bg_light {
+  background: #faf8f5;
+}
+.studio_for_mobile {
+  background: #ecf0f1 url(../img/lines-bg.png);background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.mbfirst {
+  padding: 73px 0 35px;
+}
+.studio_for_mobile h3 {
+  font-size: 15px;
+  color: #ff9328;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.studio_for_mobile p {
+  font-size: 14px;
+}
+.mbsecond {
+  padding-bottom: 30px;
+  padding-top: 3px;
+}
+.mbthird {
+  padding-bottom: 5px;
+  padding-top: 15px;
+}
+.studio_for_mobile {
+  padding-bottom: 35px;
+}
+.col-sm-4.flex-center.mb-no-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ourclients_slider h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.ourclients_slider h4 span {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+.ourclients_slider {
+  height: auto;
+border-radius: 14px;
+box-shadow: 0 0 6px 2px rgba(0,0,0,0.2);
+padding: 30px;
+background: #faf8f5;
+margin-top: 60px;
+}
+.clientele_tabs .col-sm-3 {
+  border: 1px solid #eee;
+  padding: 35px !important;
+  background: #fff;
+  border-right: 0;
+border-bottom: 0;
+transition: all .4s linear;
+}
+.clientele_tabs .col-sm-3 img {
+  width: 100%;transition: all .4s linear;
+}
+.client_tab_content {
+  border-bottom: 1px solid #eee;
+}
+.client_tab_btn {
+  background: #ecf0f1;
+  border: 0;
+  border-radius: 5px;display: flex;
+justify-content: space-between;padding: 0;
+margin: 60px 0;
+}
+.client_tab_btn li button {
+  padding: 18px 10px;
+  text-align: center;
+  border: 0 !important;
+  font-size: 18px;
+line-height: 30px;
+font-weight: 700;
+color: #212529 !important;width: 100%;white-space: nowrap;border-radius: 0 !important;
+}
+.client_tab_btn li button.active {
+  background: #ff7f00 !important;color: #fff !important;
+}
+.client_tab_btn li {
+  width: 20%;
+  text-align: center;
+}
+.client_tab_btn li:first-child button.active {
+  border-radius: 5px 0 0 5px !important;
+}
+.client_tab_btn li:last-child button.active {
+  border-radius: 0px 5px 5px 0px !important;
+}
+.clientele_tabs .col-sm-3:hover img {
+  opacity: .9;
+}
+.container_border {
+  border-bottom: 1px solid #d3d3d3;
+padding-bottom: 60px !important;
+margin-bottom: 90px;
+}
+.team_image {
+  width: 55px;
+  margin: 0px auto;
+  display: block;
+}
+.team_nub ,.team_plush {
+  text-align: center;
+  display: block;
+  background: linear-gradient(to right,#ffc63f 35%,#fd3358 65%);
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.team_plush {
+  font-size: 20px;
+}
+.team_des {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+.gattlegems_img img {
+  border: 10px solid #fff;transition: transform .35s;
+}
+.gattlegems_content {
+  box-shadow: 0 0 5px 2px rgba(0,0,0,.1);
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 25px;
+}
+.gattlegems_content:hover img {
+  transform: translate3d(0,-10%,0);transition: transform .35s;
+}
+.gattlegems_btn p {
+  font-size: 15px;
+  line-height: normal;
+}
+.gattlegems_btn {
+  visibility: hidden;
+bottom: 0;
+padding: 6px 14px;
+background: #fff;
+transition: transform .35s;
+transform: translate3d(0,100%,0);position: absolute;
+width: 100%;
+}
+.gattlegems_content:hover .gattlegems_btn {
+  transform: translate3d(0,0,0);
+visibility: visible;transition: transform .35s;
+}
+.gattlegems_btn h4 {
+  font-size: 14px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.vr_content {
+  text-align: center;
+background: #fff;
+border: 1px solid #d3d3d3;
+border-radius: 0;
+transition: .2s;
+height: 100%;
+}
+.vr_content h5 {
+  font-size: 12px;
+  font-weight: 700;
+  background: #fff;
+  margin: 0;
+  color: #000;
+  letter-spacing: 1px;
+  padding: 15px 8px;
+  border-radius:0;transition: all .4s linear;
+}
+.vr_content img {
+  transition: all .4s linear;border-radius: 0;
+}
+.vr_content:hover img {
+  transform: scale(1.1);
+}
+.vr_content:hover h5 {
+  background: #ff7f00;color: #fff;
+}
+.frequently_asked .accordion-item {
+  border: 1px solid #eee;
+}
+.frequently_asked .accordion-button:not(.collapsed) {
+  box-shadow: inset 0 -1px 0 #eee;
+  background: #faf8f5;
+  color: #000;
+}
+.frequently_asked .accordion-button {
+  outline: none !important;
+
+}
+.header_other {
+  background: #fff;
 }
