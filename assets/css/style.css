@@ -1551,3 +1551,15 @@ height: 100%;
 .ourclients_slider_content .owl-dots .owl-dot.active {
   background: #000;
 }
+.whatweoffer .turnkey_content {
+  padding-bottom: 40px;
+}
+.list_all {
+  padding-left: 14px;
+}
+.list_all li {
+  font-size: 15px;margin-bottom: 10px;
+}
+.desktop_about .turnkey_content {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
