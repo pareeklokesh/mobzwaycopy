@@ -1594,3 +1594,12 @@ background-size: cover;background-color: rgba(0, 0, 0, 0.3);
   margin-top: 6px;
   font-size: 14px;
 }
+.turnkey_content_pd .turnkey_content {
+  padding-bottom: 55px;
+}
+.turnkey_content_fs .back_office h2 {
+  font-size: 15px;
+}
+.turnkey_content_fs .back_office p {
+  font-size: 14px;
+}
