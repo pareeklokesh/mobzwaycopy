@@ -175,27 +175,27 @@
 	</div>
 </div>
 
-<div class="container-fluid py-indent">
+<div class="container-fluid py-indent" style="background: #f98633;">
 	<div class="container">
 	<div class="row">
 		<div class="col-md-7">
-		<div class="sub-title" data-aos="fade-up"> <span class="color-accent"></span> lorem ipsum</div>
-		<h2 class="block_title">The Technologies We Use For Development</h2>
+		<div class="sub-title text-white" data-aos="fade-up"> <span class="color-accent"></span> lorem ipsum</div>
+		<h2 class="block_title text-white">The Technologies We Use For Development</h2>
 		<ul class="technologies_icon d-flex">
 			<li>
-				<a href="#"><img src="assets/img/unity.webp" />Unity 3D</a>
+				<a href="#" class="text-white"><img src="assets/img/unity.webp" />Unity 3D</a>
 			</li>
 			<li>
-				<a href="#"><img src="assets/img/unreal.webp" />Unreal</a>
+				<a href="#" class="text-white"><img src="assets/img/unreal.webp" />Unreal</a>
 			</li>
 			<li>
-				<a href="#"><img src="assets/img/cocos-img.png" />Cocos2d</a>
+				<a href="#" class="text-white"><img src="assets/img/cocos-img.png" />Cocos2d</a>
 			</li>
 			<li>
-				<a href="#"><img src="assets/img/playcanvas.webp" />PlayCanvas </a>
+				<a href="#" class="text-white"><img src="assets/img/playcanvas.webp" />PlayCanvas </a>
 			</li>
 			<li>
-				<a href="#"><img src="assets/img/html5-img.png" />HTML5 </a>
+				<a href="#" class="text-white"><img src="assets/img/html5-img.png" />HTML5 </a>
 			</li>
 		</ul>
 		</div>
@@ -267,7 +267,9 @@
 			</div>
 		</div>
 		<div class="row justify-content-center" style="padding: 0 14px;">
-			<div class="col-md-12 ourclients_slider">
+			<div class="col-md-12  ourclients_slider">
+        <div class="ourclients_slider_content owl-carousel owl-theme">
+        <div class="item">
 		<div class="row">
 			<div class="col-sm-8">
 				<p class="description_text">It was great working with Juego Studios on our gaming application. We truly appreciate the team’s efforts & their commitment to the project.</p>
@@ -278,6 +280,61 @@
 				<img src="assets/img/emirates-nbd-log.png" class="w-100" />
 			</div>
 		</div>
+  </div>
+
+  <div class="item">
+    <div class="row">
+      <div class="col-sm-8">
+        <p class="description_text">We partnered with Juego Studios for the development of Munna Michael, a Bollywood based game & they did a terrific job. Our main concern was to develop a good game within specific timelines and they delivered a quality product. They also help us with theme/event-based updates on a regular basis.</p>
+        <h4 class="text-end">Vaibhavi Parikh <span class="d-block text-end">General Manager, Erosnow Games</span></h4>
+
+      </div>
+      <div class="col-sm-4">
+        <img src="assets/img/eros-now-logo-1.jpg" class="w-100" />
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="row">
+      <div class="col-sm-8">
+        <p class="description_text">I want to reach out Juego Team and thank you for all the great work on the SSCS mobile application. Its been a pleasure working with Juego Studios on this project and looking forward to partnering with team again in the future.</p>
+        <h4 class="text-end">Mathew Butler <span class="d-block text-end">Mobile Center of Excellence , IEEE</span></h4>
+
+      </div>
+      <div class="col-sm-4">
+        <img src="assets/img/ieee-logo-1.jpg" class="w-100" />
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="row">
+      <div class="col-sm-8">
+        <p class="description_text">Well, I signed up to work with Juego Studio for a project and they really exceeded my expectations. The project was delivered on time, with no hiccups whatsoever. They are talented and professional game developers who get the job done without fail. I cannot recommend them enough!</p>
+        <h4 class="text-end">Sam Anthony Gilfred <span class="d-block text-end">Sr. Project Manager - Amazon</span></h4>
+
+      </div>
+      <div class="col-sm-4">
+        <img src="assets/img/Amazon-logo.png" class="w-100" />
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="row">
+      <div class="col-sm-8">
+        <p class="description_text">It was great working with Juego Studios on our gaming application. We truly appreciate the team’s efforts & their commitment to the project.</p>
+        <h4 class="text-end">Mohammad Parham Al Awadhi <span class="d-block text-end">Vice President, Group IT – Emirates NBD</span></h4>
+
+      </div>
+      <div class="col-sm-4">
+        <img src="assets/img/emirates-nbd-log.png" class="w-100" />
+      </div>
+    </div>
+  </div>
+
+</div>
 	</div>
 	</div>
 
@@ -946,8 +1003,8 @@ strategies</p>
   <div class="container">
     <div class="row" style="padding-bottom: 90px;">
       <div class="col-md-4">
-  <div class="sub-title" data-aos="fade-up"> <span class="color-accent"></span> CONTACT US</div>
-  <h2 class="block_title" data-aos="fade-down"> We are just click away</h2>
+  <div class="sub-title"> <span class="color-accent"></span> CONTACT US</div>
+  <h2 class="block_title"> We are just click away</h2>
   <div class="w-100">
     <form class="footer_form">
       <div class="d-flex">
@@ -1499,6 +1556,24 @@ $(window).scroll(function() {
 </script>
 <script>
   AOS.init();
+</script>
+
+ <script>
+  jQuery(document).ready(function($) {
+              $('.ourclients_slider_content').owlCarousel({
+                center: true,
+                items: 1,
+                loop: true,
+                margin: 10,autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+                responsive: {
+                  600: {
+                    items: 1
+                  }
+                }
+              });
+              });
 </script>
 
 </body>
