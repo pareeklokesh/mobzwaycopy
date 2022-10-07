@@ -11,15 +11,19 @@
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">   
+<link rel="stylesheet" type="text/css" href="assets/css/aos.css">
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">  
 
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/aos.js"></script>
 </head>
 <body>
-
+<div class="full_page">
 <header class="container-fluid header">
+  <div class="header_inner">
   <div class="row">
     <div class="col-md-12 mb-center">
       <a href="tel:7878 044 044" class="mb_desk align-items-center call_btn"><i class="fa fa-phone-alt"></i> 7878 044 044 <strong>Call Us Now!</strong></a>
@@ -84,6 +88,7 @@
       </ul>
     </div>
   </div>
+</div>
 </header>
 
 <!-- Header End! -->

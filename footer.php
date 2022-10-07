@@ -1,9 +1,11 @@
+<!-- Footer -->
+
 <footer class="container-fluid">
   <div class="container">
     <div class="row" style="padding-bottom: 90px;">
       <div class="col-md-4">
-  <div class="sub-title"> <span class="color-accent"></span> CONTACT US</div>
-  <h2 class="block_title"> We are just click away</h2>
+  <div class="sub-title" data-aos="fade-up"> <span class="color-accent"></span> CONTACT US</div>
+  <h2 class="block_title" data-aos="fade-down"> We are just click away</h2>
   <div class="w-100">
     <form class="footer_form">
       <div class="d-flex">
@@ -241,6 +243,11 @@ Area Jaipur, (Raj) India
 </div>
 </footer>
 
+<!-- Footer End! -->
+
+</div>
+
+
 <!-- Chat btn -->
 
 <button class="chat_btn chat_btn_dsk"  data-bs-toggle="modal" data-bs-target="#sendusyourinquiry"><i class="fa fa-envelope"></i> Send us your inquiry</button>
@@ -274,7 +281,7 @@ Area Jaipur, (Raj) India
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
    <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
    <!-- <script src='https://www.google.com/recaptcha/api.js' async defer></script> -->
-<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1742164000001858039 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory1742164000001858039()' accept-charset='UTF-8'>
+<form  action="" id="myform" onsubmit="return validatefirst();">
  <input type='text' style='display:none;' name='xnQsjsdp' value='89a4c4e1cd2b8d798a13869a512e0430f10d4e54011dc2ab6ecb48142704f733'></input> 
  <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
  <input type='text' style='display:none;' name='xmIwtLD' value='c6e4fdd49e7ece532078ecf1f399f64de7ac44b920ea899066415dca11735926'></input> 
@@ -290,11 +297,13 @@ Area Jaipur, (Raj) India
                         <div class="row">
                             <div class="col-md-6 col-xs-6 col-6 mb-3 d-mobile">
                                 
-                                <input type='text' id='First_Name' class="forminput" placeholder="First Name" name='First Name' maxlength='40' />
+                                <input type='text' id='enter_name_f' class="forminput" placeholder="First Name" name='First Name' maxlength='40' />
+                                <span class="error_message" id="name_error_f"></span>
                             </div>
                             <div class="col-md-6 col-xs-6 col-6 mb-3 d-mobile">
                                 
-                                <input type='text' id='Last_Name' class="forminput" placeholder="Last Name" name='Last Name' maxlength='80'>
+                                <input type='text' id='last_name_f' class="forminput" placeholder="Last Name" name='Last Name' maxlength='80'>
+                                <span class="error_message" id="lastname_error_f"></span>
                             </div>
                             <div class="col-md-12 d-desktop mb-3">
                                 
@@ -302,15 +311,18 @@ Area Jaipur, (Raj) India
                             </div>
                             <div class="col-md-6 mb-3">
                                 
-                                <input type='text' ftype='email' class="forminput" id='Email' placeholder="Email" name='Email' maxlength='100'>
+                                <input type='text' ftype='email' class="forminput" id='enter_email_f' placeholder="Email" name='Email' maxlength='100'>
+                                <span class="error_message" id="email_error_f"></span>
                             </div>
                             <div class="col-md-6 mb-3">
                                 
-                                <input type='text' id='Mobile' class="forminput" placeholder="Mobile" name='Mobile' maxlength='30'>
+                                <input type='text' id='enter_number_f' class="forminput" placeholder="Mobile" name='Mobile' maxlength='30'>
+                                <span class="error_message" id="phone_error_f"></span>
                             </div>
                             <div class="col-md-12 mb-3 d-mobile">
                                 
-                                <textarea id='Description' placeholder="Requirement" name='Description'></textarea>
+                                <textarea id='enter_msg_f' placeholder="Requirement" name='Description'></textarea>
+                                <span class="error_message" id="msg_error_f"></span>
                             </div>
                             <div class="col-md-12 mb-3 d-desktop">
                               <select class="form-select" aria-label="Default select example">
@@ -378,48 +390,41 @@ Area Jaipur, (Raj) India
             </div>
             <div class="modal-body">
 
-                <div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm' style='background-color: white;color: black;max-width: 600px;'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-   <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
-   <!-- <script src='https://www.google.com/recaptcha/api.js' async defer></script> -->
-<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1742164000001858039 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory1742164000001858039()' accept-charset='UTF-8'>
- <input type='text' style='display:none;' name='xnQsjsdp' value='89a4c4e1cd2b8d798a13869a512e0430f10d4e54011dc2ab6ecb48142704f733'></input> 
- <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
- <input type='text' style='display:none;' name='xmIwtLD' value='c6e4fdd49e7ece532078ecf1f399f64de7ac44b920ea899066415dca11735926'></input> 
- <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
- <input type='text' style='display:none;' name='returnURL' value='https://www.mobzway.com/thank-you/' > </input>
-   <!-- Do not remove this code. -->
-   <input type='text' style='display:none;' id='ldeskuid' name='ldeskuid'></input>
-   <input type='text' style='display:none;' id='LDTuvid' name='LDTuvid'></input>
-   <!-- Do not remove this code. -->
+               
+<form  action="" id="myform" onsubmit="return validate();">
+ 
                         
 
 
                         <div class="row">
                             <div class="col-md-12 mb-3">
                                 
-                                <input type='text' id='Last_Name' class="forminput" placeholder="Enter Name" name='Last Name' maxlength='80'>
+                                <input type='text' id='enter_name' class="forminput" placeholder="Enter Name">
+                                <span class="error_message" id="name_error"></span>
                             </div>
                             <div class="col-md-6 mb-3">
                                 
-                                <input type='text' ftype='email' class="forminput" id='Email' placeholder="Email" name='Email' maxlength='100'>
+                                <input type='text' class="forminput" id='enter_email' placeholder="Email">
+                                <span class="error_message" id="email_error"></span>
                             </div>
                             <div class="col-md-6 mb-3">
                                 
-                                <input type='text' id='Mobile' class="forminput" placeholder="Mobile" name='Mobile' maxlength='30'>
+                                <input type='text' id='enter_number' class="forminput" placeholder="Mobile">
+                                <span class="error_message" id="phone_error"></span>
                             </div>
                             <div class="col-md-12 mb-3 d-mobile">
                                 
-                                <textarea id="" placeholder="Requirement" name="Description"></textarea>
+                                <textarea id="enter_msg" placeholder="Requirement"></textarea>
+                                <span class="error_message" id="msg_error"></span>
                             </div>
                             <div class="col-md-12">
-                              <div class="mb-3 form-check">
+                              <div class="mb-2 form-check">
                               <input type="checkbox" class="form-check-input" id="exampleCheck2">
                               <label class="form-check-label" for="exampleCheck2"> Please confirm you <a href="#">consent</a> to your personal information being processed and shared with third parties</label>
                             </div>
                             </div>
 
-                             <div class="col-md-12">
+                             <div class="col-md-12 mb-2">
                                 <label for="">Captcha </label>
                                 <center>
                                 <div class="zcwf_col_fld"><div class='g-recaptcha' data-sitekey='6LerTcAZAAAAAPCp-yqkRPmgR8ihu3CrcIZA0bD-' data-theme='light' data-callback='rccallback1742164000001858039' captcha-verified='false' id='recap1742164000001858039'></div>
@@ -430,7 +435,7 @@ Area Jaipur, (Raj) India
                             <div class="row">
                             <div class="col-md-6 col-xs-6 col-6">
                                 <div class="btn_outer">
-                                    <input type='submit' id='formsubmit' class='formsubmit zcwf_button forminput' value='Submit' title='Submit'>
+                                    <input type='submit' id='form_submit' class='formsubmit forminput' value='Submit'>
                                 </div>
                             </div>
                             <div class="col-md-6 col-xs-6 col-6">
@@ -439,7 +444,6 @@ Area Jaipur, (Raj) India
                                 </div>
                             </div>
                           </div>
-                        </div>
 
 
                         
@@ -470,23 +474,200 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 </script>
-<script>
+<!-- <script>
   $(".mobile_menu").click(function(){
     $(this).toggleClass("mobile_menu_open");
-    $(".header_nav").toggleClass("header_nav_open");
+    $(".header_nav").modal().toggleClass("header_nav_open");
+  });
+</script> -->
+<script defer type="text/javascript"> 
+document.addEventListener('DOMContentLoaded', function () {
+    let navToggle = document.getElementsByClassName('mobile_menu')[0];
+    const html = document.getElementsByTagName("html")[0];
+    let menu = document.getElementsByClassName('header__wrapper')[0];
+
+    navToggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        if(navToggle.contains(e.target)){
+          html.classList.toggle("openNav");
+        } 
+    });
+    document.addEventListener('click', function(e) {
+        let isClickMenu = menu.contains(e.target);
+        if (!isClickMenu) {
+          html.classList.remove("openNav");
+        }
+    });
+});
+</script>
+<script>
+  $(".dropdown_menu a").click(function(){
+    $(this).toggleClass("dropdown_menu_active");
+    $(".sub-menu").toggleClass("sub_menu_aftive");
   });
 </script>
 <script>
   $(document).on('scroll', function() {
-              if ($(window).scrollTop() > 50) {
+              if ($(window).scrollTop() > 100) {
                   $('header.header').addClass('sticky');
               } else {
                   $('header.header').removeClass('sticky');
               }
           });
+  $(document).on('scroll', function() {
+              if ($(window).scrollTop() > 120) {
+                  $('body').addClass('sticky_body');
+              } else {
+                  $('body').removeClass('sticky_body');
+              }
+          });
 </script>
 
-</footer>
+<script>
+  function validatefirst(){
+    debugger
+  var name = document.getElementById("enter_name_f").value;
+  var lastname = document.getElementById("last_name_f").value;
+  var message = document.getElementById("enter_msg_f").value;
+  var phone = document.getElementById("enter_number_f").value;
+  var email = document.getElementById("enter_email_f").value;
+  var error_message = document.getElementById("error_message");
+  
+  
+  var text;
+  if(name.length < 3){
+    text = "Please Enter valid Name";
+    $("#name_error_f").html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(lastname.length < 2){
+    text = "Please Enter valid Name";
+    $("#lastname_error_f").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(email.indexOf("@") == -1 || email.length < 6){
+    text = "Please Enter valid Email";
+    $("#email_error_f").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(isNaN(phone) || phone.length != 10){
+    text = "Please Enter valid Phone Number";
+    $("#phone_error_f").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(message.length <= 140){
+    text = "Please Enter More Than 140 Characters";
+    $("#msg_error_f").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message_f").hide();
+  }
+  alert("Form Submitted Successfully!");
+  return true;
+}
+</script>
+
+<script>
+  function validate(){
+    debugger
+  var name = document.getElementById("enter_name").value;
+  var message = document.getElementById("enter_msg").value;
+  var phone = document.getElementById("enter_number").value;
+  var email = document.getElementById("enter_email").value;
+  var error_message = document.getElementById("error_message");
+  
+  
+  var text;
+  if(name.length < 5){
+    text = "Please Enter valid Name";
+    $("#name_error").html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(email.indexOf("@") == -1 || email.length < 6){
+    text = "Please Enter valid Email";
+    $("#email_error").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(isNaN(phone) || phone.length != 10){
+    text = "Please Enter valid Phone Number";
+    $("#phone_error").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(message.length <= 140){
+    text = "Please Enter More Than 140 Characters";
+    $("#msg_error").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  alert("Form Submitted Successfully!");
+  return true;
+}
+</script>
+<script>
+  $(document).ready(function(){
+    $("#requestQoute").modal('show');
+  });
+</script>
+<script>
+  var counted = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#counter').offset().top - window.innerHeight;
+  if (counted == 0 && $(window).scrollTop() > oTop) {
+    $('.count').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 2000,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+          }
+
+        });
+    });
+    counted = 1;
+  }
+
+});
+</script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>

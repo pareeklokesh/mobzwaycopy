@@ -4,29 +4,35 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-      <h1>Sports betting and online casino platform</h1>
-      <h3>Our Platform. Your Success</h3>
-      <p>Turn your ideas into profits! Start a new business or expand an existing one – Uplatform is your assured partner on the road to achieving your goals.</p>
-      <p><button class="btn_all">Request a demo <img src="assets/img/arrow-next.png"></button></p>
+      <h1 data-aos="fade-right">Best Poker, Rummy, Casino Gaming Solution</h1>
+      <h3 data-aos="fade-right">Our Platform. Your Success</h3>
+      <p data-aos="fade-up">Turn your ideas into profits! Start a new business or expand an existing one – Uplatform is your assured partner on the road to achieving your goals.</p>
+      <p data-aos="fade-up"><button class="btn_all">Request a demo <img src="assets/img/arrow-next.png"></button></p>
     </div>
       <div class="col-lg-6">
-        <img src="assets/img/banner.png" class="w-100">
+        <!-- <img src="assets/img/banner.png" class="w-100"> -->
+        <div class="w-100 banner_grid" data-aos="fade-left">
+            <img src="assets/img/01-16.png" class="w-100">
+            <img src="assets/img/01-16.png" class="w-100">
+            <img src="assets/img/01-16.png" class="w-100">
+            <img src="assets/img/01-16.png" class="w-100">
+          </div>
       </div>
     </div>
 
   </div>
 </div>
 
-<div class="container-fluid block-solutions py-indent">
+<div class="container-fluid block-solutions py-indent pt-0">
   <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <div class="sub-title"> <span class="color-accent"></span> SMOOTH AND EFFICIENT</div>
-        <h2 class="block_title">Unrivalled Solutions</h2>
+      <div class="sub-title" data-aos="fade-up"> <span class="color-accent"></span> SMOOTH AND EFFICIENT</div>
+        <h2 class="block_title" data-aos="fade-down">Unrivalled Solutions</h2>
     </div>
   </div>
   <div class="row sec_mt" style="padding-bottom:15px;">
-    <div class="col-md-4">
+    <div class="col-md-4" data-aos="fade-right">
       <div class="w-100 turnkey_content">
         <h2><span><img src="assets/img/turnkey-svg.svg"></span>Turnkey</h2>
         <p>Build a profitable and stable brand with an all-in-one solution:</p>
@@ -39,7 +45,7 @@
       </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4" data-aos="fade-up">
       <div class="w-100 turnkey_content">
         <h2><span><img src="assets/img/api-svg.svg"></span>Sportsbook API</h2>
         <p>Want to expand your existing project? Our effective sportsboook API will provide you:</p>
@@ -51,7 +57,7 @@
         <button class="btn_all">Learn more <img src="assets/img/arrow-next.png"></button>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4" data-aos="fade-left">
       <div class="w-100 turnkey_content">
         <h2><span><img src="assets/img/Frame-body.svg"></span>Betshop solutions</h2>
         <p>Take advantage of our knowledge of retail betting and the most comprehensive software:</p>
@@ -72,12 +78,12 @@
   <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <div class="sub-title text-white"> <span class="color-accent"></span> SMOOTH AND EFFICIENT</div>
-        <h2 class="block_title text-white mb-0">Unrivalled Solutions</h2>
+      <div class="sub-title text-white" data-aos="fade-up"> <span class="color-accent"></span>  BUSINESS DONE RIGHT</div>
+        <h2 class="block_title text-white mb-0" data-aos="fade-down">Why Mobzway</h2>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-4 sec_mt">
+    <div class="col-md-4 sec_mt" data-aos="fade-right">
       <div class="w-100 d-flex align-items-start">
         <div class="sportsbook_icon">
           <img src="assets/img/win-svg.svg" alt="Ultimate sportsbook" />
@@ -88,7 +94,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4 sec_mt">
+    <div class="col-md-4 sec_mt" data-aos="fade-up">
       <div class="w-100 d-flex align-items-start">
         <div class="sportsbook_icon">
           <img src="assets/img/disk-svg.svg" alt="Ultimate sportsbook" />
@@ -99,7 +105,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4 sec_mt">
+    <div class="col-md-4 sec_mt" data-aos="fade-left">
       <div class="w-100 d-flex align-items-start">
         <div class="sportsbook_icon">
           <img src="assets/img/why-3.svg" alt="Ultimate sportsbook" />
@@ -112,7 +118,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-4 sec_mt">
+    <div class="col-md-4 sec_mt" data-aos="fade-right">
       <div class="w-100 d-flex align-items-start">
         <div class="sportsbook_icon">
           <img src="assets/img/why-4.svg" alt="Ultimate sportsbook" />
@@ -123,7 +129,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4 sec_mt">
+    <div class="col-md-4 sec_mt" data-aos="fade-up">
       <div class="w-100 d-flex align-items-start">
         <div class="sportsbook_icon">
           <img src="assets/img/why-5.svg" alt="Ultimate sportsbook" />
@@ -134,7 +140,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4 sec_mt">
+    <div class="col-md-4 sec_mt" data-aos="fade-left">
       <div class="w-100 d-flex align-items-start">
         <div class="sportsbook_icon">
           <img src="assets/img/why-6.svg" alt="Ultimate sportsbook" />
@@ -332,8 +338,8 @@
     </div>
     <div class="col-md-7" style="padding-left: 90px;">
       <div class="col-md-12">
-      <div class="sub-title"> <span class="color-accent"></span> VIRTUOSO OF BETTING AND CASINO PRODUCTS</div>
-        <h2 class="block_title">Our Products</h2>
+      <div class="sub-title" data-aos="fade-up"> <span class="color-accent"></span> VIRTUOSO OF BETTING AND CASINO PRODUCTS</div>
+        <h2 class="block_title" data-aos="fade-down">Our Products</h2>
         <p class="sec_mt">Experience and connect to an array of casino and sports betting products to bring more value to your betting and casino business today. From our awarded Sportsbook and a wide selection of slots to Live Casino games, Bingo and TOTO, we’ve got all you need to boost you to that next level.</p>
     </div>
     <div class="row" style="margin-top: 45px">
@@ -365,8 +371,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="sub-title"> <span class="color-accent"></span>  DELIVERING MORE</div>
-        <h2 class="block_title">Optimized Services</h2>
+        <div class="sub-title" data-aos="fade-up"> <span class="color-accent"></span>  DELIVERING MORE</div>
+        <h2 class="block_title" data-aos="fade-down">Optimized Services</h2>
       </div>
     </div>
     <div class="row">
@@ -430,31 +436,31 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="sub-title"> <span class="color-accent"></span> IT’S ALL ABOUT YOU</div>
-        <h2 class="block_title">Uplatform – solutions with a personal approach</h2>
+        <div class="sub-title" data-aos="fade-up"> <span class="color-accent"></span> IT’S ALL ABOUT YOU</div>
+        <h2 class="block_title" data-aos="fade-down">Uplatform – solutions with a personal approach</h2>
       </div>
       <div class="col-md-6">
         <div class="w-100">
-          <p> Our unique solutions are built on practical knowledge and market experience, empowering you with an industry-leading sportsbook, the complete choice of products, and all the essential additional services. You’ll be Holing all the Aces, ensuring players are satisfied and entertained, your operations are smooth and on-track, and your project is enduring and delivers profitable results.</p>
-          <p> We place the highest value on support and partnership amongst all the importance of our business, and we view our achievements through the successful realization of your ideas. With our “your problem is our problem” approach, we help you succeed and accomplish fantastic results, enabling us to strive and improve as a dynamic market leader.</p>
-          <button class="btn_all" style="width: 282px;height: 62px;background: #FF7F00;margin-top: 35px;">Learn more <img src="assets/img/arrow-next.png"></button>
+          <p data-aos="fade-left"> Our unique solutions are built on practical knowledge and market experience, empowering you with an industry-leading sportsbook, the complete choice of products, and all the essential additional services. You’ll be Holing all the Aces, ensuring players are satisfied and entertained, your operations are smooth and on-track, and your project is enduring and delivers profitable results.</p>
+          <p data-aos="fade-left"> We place the highest value on support and partnership amongst all the importance of our business, and we view our achievements through the successful realization of your ideas. With our “your problem is our problem” approach, we help you succeed and accomplish fantastic results, enabling us to strive and improve as a dynamic market leader.</p>
+          <button data-aos="fade-up" class="btn_all" style="width: 282px;height: 62px;background: #FF7F00;margin-top: 35px;">Learn more <img src="assets/img/arrow-next.png"></button>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <ul class="product_list d-flex p-0 justify-content-center years_industry" style="flex-wrap:wrap;">
+        <ul id="counter" class="product_list d-flex p-0 justify-content-center years_industry" style="flex-wrap:wrap;">
               <li>
-                <strong> 3+</strong>years in industry
+                <strong class="count percent" data-count="3">0</strong>years in industry
               </li>
               <li>
-                <strong> 50+</strong>clients
+                <strong class="count percent" data-count="50">0</strong>clients
               </li>
               <li>
-                <strong> 153%</strong>growth in 2021
+                <strong class="count percent" data-count="153">0</strong>growth in 2021
               </li>
               <li>
-                <strong> 300+</strong>employees
+                <strong class="count percent" data-count="300">0</strong>employees
               </li>
             </ul>
       </div>
@@ -489,9 +495,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2 class="block_title">Start your business journey with Mobzway</h2>
+        <h2 class="block_title" data-aos="fade-down">Start your business journey with Mobzway</h2>
         <p class="">Try Our Games, and explore all the features and solutions you need to start, run, and grow your business.</p>
-        <button class="btn_all btn_try_demo" data-bs-toggle="modal" data-bs-target="#requestQoute">Try Demo</button>
+        <button class="btn_all btn_try_demo" data-bs-toggle="modal" data-bs-target="#requestQoute">Try Demo <img src="assets/img/arrow-next.png" style="max-width: 14px;opacity: .4;position: relative;top: 1px;margin-left: 10px;filter: inherit;"></button>
       </div>
     </div>
   </div>
