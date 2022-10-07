@@ -1603,3 +1603,14 @@ background-size: cover;background-color: rgba(0, 0, 0, 0.3);
 .turnkey_content_fs .back_office p {
   font-size: 14px;
 }
+.animation_title {
+  margin: 10px 0;
+  font-size: 16px !important;
+  line-height: 25px;
+  font-weight: 700;
+  text-align: center;
+  color: #ff7f00;text-transform: uppercase;
+}
+.animation_block .col-md-3, .animation_block .col-md-4 {
+  margin-bottom: 15px;
+}
