@@ -1640,3 +1640,64 @@ background-size: cover;background-color: rgba(0, 0, 0, 0.3);
   font-weight: 400;
   text-transform: capitalize;
 }
+.banner_other p ~ p {
+  margin-bottom: 0;
+}
+
+
+
+
+@media (max-width: 991px) {
+  .col-lg-3.col-md-4 {
+  margin-bottom: 25px;
+}
+.client_tab_btn {
+  flex-wrap: wrap;
+}
+.client_tab_btn li {
+  width: auto;
+  min-width: 150px;
+}
+.client_tab_btn li button {
+  font-size: 14px;
+  padding: 10px;
+}
+
+}
+
+@media (max-width: 767px) {
+  .technologies_icon {
+  margin-bottom: 20px;
+}
+.gattlegems_content {
+  height: auto;;
+}
+.turnkey_content_pd .col-md-6, .turnkey_content_fs .col-md-4 {
+  margin-bottom: 1.5rem;
+}
+body {font-size: 14px;}
+
+}
+
+
+@media (max-width: 600px) {
+  .banner_other h1 {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.block_sub_title {
+  font-size: 22px;
+}
+.technologies_content ul li {
+  width: 28%;
+  margin-bottom: 10px;
+}
+.whatweoffer .col-md-6 {
+  margin-bottom: 20px;
+}
+
+
+
+
+}
