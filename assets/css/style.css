@@ -789,6 +789,10 @@ padding: 8px 30px;
   max-width: 100%;
   background: #ffe8d7;
 }
+.header_nav_menu li.dropdown_menu .sub-menu li a:hover {
+  box-shadow: inset 0 -1px 0 0 #ff7f00;
+  color: #ff7f00;
+}
 .modal.fade.right_modal .modal-dialog {
   transition: transform .3s ease-out;
   transform: translateX(338%) !important;
