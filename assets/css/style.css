@@ -986,6 +986,9 @@ max-width: 100%;margin: 0px auto;padding:0px;
 }
 
 @media (max-width: 991px) {
+  .header_logo img {
+  width: 150px;
+}
   .call_btn {
   display: none !important;
 }
