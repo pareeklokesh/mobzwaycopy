@@ -989,6 +989,7 @@ max-width: 100%;margin: 0px auto;padding:0px;
   .header_logo img {
   width: 150px;
 }
+.banner-main {padding-top: 30px;}
   .call_btn {
   display: none !important;
 }
