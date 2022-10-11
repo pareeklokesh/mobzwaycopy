@@ -1666,6 +1666,12 @@ background-size: cover;background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 0;
 }
+.header_nav_menu li.dropdown_menu .sub-menu li {
+  margin-bottom: 10px;
+}
+.header_nav_menu li.dropdown_menu .sub-menu {
+  padding-top: 10px;
+}
 
 
 
