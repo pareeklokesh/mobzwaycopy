@@ -1649,11 +1649,21 @@ background-size: cover;background-color: rgba(0, 0, 0, 0.3);
 .banner_other p ~ p {
   margin-bottom: 0;
 }
+.banner {
+  margin-top: 114px;
+}
+.header {
+  position: fixed;
+  top: 0;
+}
 
 
 
 
 @media (max-width: 991px) {
+  .banner {
+  margin-top: 104px;
+}
   .col-lg-3.col-md-4 {
   margin-bottom: 25px;
 }
