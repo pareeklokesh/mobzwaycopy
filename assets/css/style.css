@@ -787,6 +787,7 @@ padding: 8px 30px;
 .header {
   width: 100%;
   max-width: 100%;
+  background: #ffe8d7;
 }
 .modal.fade.right_modal .modal-dialog {
   transition: transform .3s ease-out;
@@ -1538,7 +1539,7 @@ height: 100%;
 
 }
 .header_other {
-  background: #fff;
+  background: #ffe8d7;
 }
 .ourclients_slider_content .owl-dots .owl-dot {
   width: 9px;
