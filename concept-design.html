@@ -695,7 +695,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <script>
   $(".dropdown_menu a").click(function(){
     $(this).toggleClass("dropdown_menu_active");
-    $(".sub-menu").toggleClass("sub_menu_aftive");
+    $(this).next(".sub-menu").toggleClass("sub_menu_aftive");
   });
 </script>
 <script>
