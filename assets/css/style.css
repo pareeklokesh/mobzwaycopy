@@ -372,7 +372,10 @@ content: "";
 position: absolute;
 width: 100%;
 left: 0;transition: .5s;
-z-index: -1;
+z-index: -1;display: none;
+}
+.product_img img {
+  border-radius: 5px;
 }
 .product_content {
   position: absolute;
