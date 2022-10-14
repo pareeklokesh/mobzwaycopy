@@ -1220,6 +1220,9 @@ transform: translate3d(260px,0,0);
 }
 
 @media (max-width: 767px) {
+  .product_content {
+    border-radius: 0 0 12px 12px;
+  }
   .right_modal .modal-dialog {
     width: 100%;
   }
