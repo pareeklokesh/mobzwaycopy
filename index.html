@@ -26,8 +26,8 @@
 <link rel="icon" type="text/css" href="assets/img/favicon.png"> 
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" type="text/css" href="assets/css/aos.css">
-<link rel="stylesheet" type="text/css" href="assets/css/all.min.css"> 
+<link rel="stylesheet" type="text/css" media="print" onload="this.onload=null;this.removeAttribute('media');" href="assets/css/aos.css">
+<link rel="stylesheet" type="text/css" media="print" onload="this.onload=null;this.removeAttribute('media');" href="assets/css/all.min.css">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-249839306-1"></script>
 <script>
@@ -1020,8 +1020,27 @@ Area Jaipur, (Raj) India
 </div>
 
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.min.js"></script>
+<!-- <script src="assets/js/jquery.min.js"></script> -->
 <script src="assets/js/aos.js"></script>
+
+
+<script>
+      var fired = false;
+    window.addEventListener('scroll', function() {
+      
+    let scroll = window.scrollY;
+    if (scroll > 0  && fired === false) {
+          var recaptchaScript = document.createElement('script');
+         recaptchaScript.src = 'assets/js/jquery.min.js';
+         recaptchaScript.defer = true;
+         document.body.appendChild(recaptchaScript);    
+        fired = true;
+        console.log('On scroll fired');
+    }
+}, true);
+</script>
+
+
  <!-- Send us your inquiry End! -->
 
 
