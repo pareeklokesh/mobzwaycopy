@@ -1,13 +1,13 @@
 
-/*@font-face {
+@font-face {
   font-family: 'Montserrat', sans-serif;
-  src: url('font/Montserrat/Montserrat-Thin.ttf') format('truetype'), url('font/Montserrat/Montserrat-Regular.ttf') format('truetype')
-  , url('font/Montserrat/Montserrat-Medium.ttf') format('truetype'), url('font/Montserrat/Montserrat-Light.ttf') format('truetype')
-  , url('font/Montserrat/Montserrat-ExtraLight.ttf') format('truetype'), url('font/Montserrat/Montserrat-ExtraBold.ttf') format('truetype')
-  , url('font/Montserrat/Montserrat-Bold.ttf') format('truetype'), url('font/Montserrat/Montserrat-Black.ttf') format('truetype')
-  , url('font/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+  src: url('web-font/montserrat/Montserrat-Black.ttf'), url('web-font/montserrat/Montserrat-Bold.ttf'), 
+  url('web-font/montserrat/Montserrat-ExtraBold.ttf'), url('web-font/montserrat/Montserrat-ExtraLight.ttf'), 
+  url('web-font/montserrat/Montserrat-Italic.ttf'), url('web-font/montserrat/Montserrat-Light.ttf'), 
+  url('web-font/montserrat/Montserrat-Medium.ttf'), url('web-font/montserrat/Montserrat-Regular.ttf'), 
+  url('web-font/montserrat/Montserrat-SemiBold.ttf'), url('web-font/montserrat/Montserrat-Thin.ttf');
   font-display:swap;
-}*/
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -1060,7 +1060,7 @@ background-color: #000;
 transition: all .5s ease 0s;
 top: 0;
 height: 100%;
-padding-top: 110px;
+padding-top: 68px;
 }
 .header_nav_menu {
   flex-direction: column;
