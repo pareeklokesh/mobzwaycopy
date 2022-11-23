@@ -949,6 +949,9 @@ padding: 0 20px !important;
 .header_inner {
 max-width: 1500px;margin: 0px auto;padding: 0 20px;
 }
+#sendusyourinquiry .mb-2.form-check {
+  display: none;
+}
 
 
 
