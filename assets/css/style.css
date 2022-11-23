@@ -581,7 +581,7 @@ background: #fff;opacity: 1;
   display: none;
 }
 .chat_btn {
-  transform: rotate(-90deg) translate(20px);
+  transform: rotate(-90deg) translateY(104px);
   background: linear-gradient(95deg, rgb(110, 0, 163) 20%, rgb(110, 0, 163) 80%);
   border: 0;
   border-top-left-radius: 8px;
@@ -591,11 +591,12 @@ background: #fff;opacity: 1;
   height: 40px;
   position: fixed;
   z-index: 9999999;
-  right: -102px;
+  right: 0;
 top: 50%;
   font-size: 16px;
   font-weight: 400;
   padding: 6px 15px;
+  padding-right: 20px;
 
 }
 .chat_btn i {
