@@ -581,7 +581,7 @@ background: #fff;opacity: 1;
   display: none;
 }
 .chat_btn {
-  transform: rotate(-90deg) translateY(104px);
+  transform: rotate(-90deg) translateY(92px);
   background: linear-gradient(95deg, rgb(110, 0, 163) 20%, rgb(110, 0, 163) 80%);
   border: 0;
   border-top-left-radius: 8px;
@@ -805,9 +805,9 @@ padding: 8px 30px;
   transition: transform .3s ease-out;
   transform: translateX(338%) !important;
 }
-.right_modal .zcwf_col_fld, .right_modal #recapErr1742164000001858039 {
+/*.right_modal .zcwf_col_fld, .right_modal #recapErr1742164000001858039 {
   display: none;
-}
+}*/
 .modal.right_modal.show .modal-dialog {
   transform: none !important;
 }
