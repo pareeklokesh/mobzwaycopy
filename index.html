@@ -938,7 +938,7 @@ Area Jaipur, (Raj) India
                     We are too! fill out the form below and we'll contact you very shortly.
                 </p>
                 <button type="button" class="close position-absolute" data-bs-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
+                    <span onclick="return closeSPopup();" aria-hidden="true">×</span>
                 </button>
             </div>
             <div class="modal-body">
@@ -1203,9 +1203,30 @@ document.addEventListener('DOMContentLoaded', function () {
 }
 </script>
 <script>
-  $(document).ready(function(){
+  /*$(document).on('scroll', function() {
+              if ($(window).scrollTop() > 100) {
+                  $("#sendusyourinquiry").modal('show');
+              } else {
+                  $("#sendusyourinquiry .close").click(function(){
+                    $("#sendusyourinquiry").modal('hide');
+                  });
+              }
+          });*/
+  var isAlreadyPopUp;
+
+  $(window).scroll(function () {
+        if(!isAlreadyPopUp){
+                if ($(document).scrollTop() >= $(document).height() / 25)
+            $("#sendusyourinquiry").modal('show'); else $("#sendusyourinquiry").hide("slow");
+         }
+    });
+    function closeSPopup() {
+        $('#sendusyourinquiry').hide('slow');
+        isAlreadyPopUp=true;
+ }
+  /*$(document).ready(function(){
     $("#sendusyourinquiry").modal('show');
-  });
+  });*/
 </script>
 <script>
   var counted = 0;
