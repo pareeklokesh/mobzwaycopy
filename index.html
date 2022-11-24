@@ -128,7 +128,7 @@
     <div class="row">
       <div class="col-lg-8">
       <h1 data-aos="fade-right">One Stop Solution For your Gaming Business Idea</h1>
-      <h3 data-aos="fade-right">Your Idea . Our Experience & Expertise . A Successful Product</h3>
+      <h3 data-aos="fade-right">Your Idea . Our Experience & Expertise . <br>A Successful Product</h3>
       <p data-aos="fade-up">Turn your idea into a world class gaming product and Build a profitable business</p>
       <p data-aos="fade-up"><button data-bs-toggle="modal" data-bs-target="#requestQoute" class="btn_all">Request a demo <img src="assets/img/arrow-next.png"></button></p>
     </div>
@@ -813,10 +813,10 @@ Area Jaipur, (Raj) India
 
 <!-- Chat btn -->
 
-<button class="chat_btn chat_btn_dsk"  data-bs-toggle="modal" data-bs-target="#sendusyourinquiry"><i class="fa fa-envelope"></i> Share your requirement</button>
-<a href="https://api.whatsapp.com/send?phone=917597807070&text=Hello" target="_blank" class="whatsapp_chat chat_btn_dsk" style="width: 50px;height: 50px;font-size: 30px;"><i class="fab fa-whatsapp"></i></a>
+<button class="chat_btn chat_btn_dsk sharerequirment"  data-bs-toggle="modal" data-bs-target="#requestQoute"><i class="fa fa-envelope"></i> Share your requirement</button>
+<a href="https://api.whatsapp.com/send?phone=917597807070&text=" target="_blank" class="whatsapp_chat chat_btn_dsk" style="width: 50px;height: 50px;font-size: 30px;"><i class="fab fa-whatsapp"></i> Whatsapp</a>
 <div class="container-fluid fix_chat">
-  <a href="https://api.whatsapp.com/send?phone=917597807070&text=Hello" target="_blank" class="whatsapp_chat btn_chat"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://api.whatsapp.com/send?phone=917597807070&text=" target="_blank" class="whatsapp_chat btn_chat"><i class="fab fa-whatsapp"></i></a>
   <a href="#" class="whatsapp_chat btn_chat" style="background: #fcd10a;"><i class="fa fa-phone-alt" style="color: #000;"></i></a>
   <button class="chat_btn btn_chat"  data-bs-toggle="modal" data-bs-target="#sendusyourinquiry" style="background:#6e00a3;transform: none;box-shadow: none;"><i class="fa fa-envelope"></i></button>
 </div>
@@ -830,12 +830,12 @@ Area Jaipur, (Raj) India
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header flex-wrap text-center justify-content-center" style="background-color: #ffe8d7;border-top:2px solid #ff7f00">
-                <h3 class="modal-title w-100" id="exampleModalLongTitle"><span class="yellows">Want</span> to discuss your game concept?</h3>
+                <h3 class="modal-title w-100" id="exampleModalLongTitle"><span class="yellows">Want</span> <span class="change-textmd">to discuss your game concept?</span></h3>
                 <p class="pup_cotent">
                     We are too! fill out the form below and we'll contact you very soon.
                 </p>
                 <button type="button" class="close position-absolute" data-bs-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
+                    <span aria-hidden="true" onclick="return closeSPopup();" aria-hidden="true">×</span>
                 </button>
             </div>
             <div class="modal-body">
@@ -853,7 +853,7 @@ Area Jaipur, (Raj) India
    <!-- Do not remove this code. -->
 
 <div class="row">
-<div class='col-md-6 mb-3'>
+<div class='col-md-6 mb-3 rightmodal-none'>
   <!-- <div class='zcwf_col_lab'>
   <label for='First_Name'>First Name</label>
 </div> -->
@@ -862,7 +862,7 @@ Area Jaipur, (Raj) India
   <div class='zcwf_col_help'></div>
 </div>
 </div>
-<div class='col-md-6 mb-3'>
+<div class='col-md-6 mb-3 right-modal-full'>
   <!-- <div class='zcwf_col_lab'>
     <label for='Last_Name'>Last Name<span style='color:red;'>*</span></label>
   </div> -->
@@ -929,85 +929,8 @@ Area Jaipur, (Raj) India
 
  <!-- Send us your inquiry -->
 
-<div class="modal fade request_qoute right_modal" id="sendusyourinquiry" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header flex-wrap text-center justify-content-center" style="background-color: #ffe8d7;border-top:2px solid #ff7f00">
-                <h3 class="modal-title w-100" id="exampleModalLongTitle"><span class="yellows">Want</span> to discuss your idea?</h3>
-                <p class="pup_cotent">
-                    We are too! fill out the form below and we'll contact you very shortly.
-                </p>
-                <button type="button" class="close position-absolute" data-bs-dismiss="modal" aria-label="Close">
-                    <span onclick="return closeSPopup();" aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">
-
-               
-<form  action="" id="myform" onsubmit="return validate();">
- 
-                        
 
 
-                        <div class="row">
-                            <div class="col-md-12 mb-3">
-                                
-                                <input type='text' id='enter_name' class="forminput" placeholder="Enter Name">
-                                <span class="error_message" id="name_error"></span>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                
-                                <input type='text' class="forminput" id='enter_email' placeholder="Email">
-                                <span class="error_message" id="email_error"></span>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                
-                                <input type='text' id='enter_number' class="forminput" placeholder="Mobile">
-                                <span class="error_message" id="phone_error"></span>
-                            </div>
-                            <div class="col-md-12 mb-3 d-mobile">
-                                
-                                <textarea id="enter_msg" placeholder="Requirement"></textarea>
-                                <span class="error_message" id="msg_error"></span>
-                            </div>
-                            <!-- <div class="col-md-12">
-                              <div class="mb-2 form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                              <label class="form-check-label" for="exampleCheck2"> Please confirm you <a href="#">consent</a> to your personal information being processed and shared with third parties</label>
-                            </div>
-                            </div> -->
-
-                             <div class="col-md-12 mb-2">
-                                <label for="">Captcha </label>
-                                <center>
-                                <div class="zcwf_col_fld"><div class='g-recaptcha' data-sitekey='6LerTcAZAAAAAPCp-yqkRPmgR8ihu3CrcIZA0bD-' data-theme='light' data-callback='rccallback1742164000001858039' captcha-verified='false' id='recap1742164000001858039'></div>
-<div  id='recapErr1742164000001858039' style='font-size:12px;color:red;visibility:hidden;'>Captcha validation failed. If you are not a robot then please try again.</div>
-</div><div id="recapErr1742164000001858039" style="font-size:12px;color:red;visibility:hidden;">Captcha validation failed. If you are not a robot then please try again.</div>
-                                </center></div>
-                            </div>
-                            <div class="row">
-                            <div class="col-md-6 col-xs-6 col-6">
-                                <div class="btn_outer">
-                                    <input type='submit' id='form_submit' class='formsubmit forminput' value='Submit'>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xs-6 col-6">
-                                <div class="btn_outer">
-                                    <input type='reset' class='zcwf_button forminput' name='reset' value='Reset' title='Reset'>
-                                </div>
-                            </div>
-                          </div>
-
-
-                        
-                        
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
 
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.min.js"></script>
@@ -1203,30 +1126,35 @@ document.addEventListener('DOMContentLoaded', function () {
 }
 </script>
 <script>
-  /*$(document).on('scroll', function() {
-              if ($(window).scrollTop() > 100) {
-                  $("#sendusyourinquiry").modal('show');
-              } else {
-                  $("#sendusyourinquiry .close").click(function(){
-                    $("#sendusyourinquiry").modal('hide');
-                  });
-              }
-          });*/
+  
   var isAlreadyPopUp;
 
   $(window).scroll(function () {
         if(!isAlreadyPopUp){
                 if ($(document).scrollTop() >= $(document).height() / 25)
-            $("#sendusyourinquiry").modal('show'); else $("#sendusyourinquiry").hide("slow");
+            $("#requestQoute").modal('show'); else $("#requestQoute").hide("slow");
+          $("#requestQoute").addClass("right_modal");
+          $('#Last_Name').attr('placeholder', 'Enter Name');
+          $(".change-textmd").text("to discuss your idea?");
          }
     });
     function closeSPopup() {
-        $('#sendusyourinquiry').hide('slow');
+        $('#requestQoute').hide('slow');
         isAlreadyPopUp=true;
+        $("#requestQoute").removeClass("right_modal");
+        $(".change-textmd").text("to discuss your game concept?");
  }
-  /*$(document).ready(function(){
-    $("#sendusyourinquiry").modal('show');
-  });*/
+ $(".sharerequirment").click(function(){
+  $("#requestQoute").addClass("right_modal");
+  $('#Last_Name').attr('placeholder', 'Enter Name');
+  $(".change-textmd").text("to discuss your idea?");
+ });
+ $(".request_btn button").click(function(){
+  $('#Last_Name').attr('placeholder', 'Last Name');
+  $(".change-textmd").text("to discuss your game concept?");
+ });
+ 
+  
 </script>
 <script>
   var counted = 0;
