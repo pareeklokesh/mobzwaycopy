@@ -949,8 +949,23 @@ padding: 0 20px !important;
 .header_inner {
 max-width: 1500px;margin: 0px auto;padding: 0 20px;
 }
-#sendusyourinquiry .mb-2.form-check {
+.right_modal .mb-2.form-check {
   display: none;
+}
+.right_modal .rightmodal-none {
+  display: none;
+}
+.right_modal .right-modal-full {
+  width: 100% !important;
+}
+.whatsapp_chat.chat_btn_dsk {
+  width: 69px !important;
+  height: 44px !important;
+  font-size: 30px;
+  box-shadow: 0 12px 14px 8px rgba(0,0,0,.17);
+  padding-right: 23px;
+  border-radius: 25px;
+  right: -25px;
 }
 
 
@@ -959,8 +974,8 @@ max-width: 1500px;margin: 0px auto;padding: 0 20px;
 /* ===================Responsive==================== */
 
 @media (min-width: 992px) {
-  #sendusyourinquiry {
-    overflow: hidden;padding-right: 0 !important;
+  .right_modal {
+    overflow: hidden !important;padding-right: 0 !important;
     padding-bottom: 70px;
   }
 }
