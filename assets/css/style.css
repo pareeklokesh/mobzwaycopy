@@ -1730,10 +1730,10 @@ opacity: 1 !important;
   min-width: 160px;
 }
 .right_modal.request_qoute h3 {
-  color: #000;
+  color: #ff7f00;
 }
 .right_modal.request_qoute .modal-content {
-  border-color: #333;
+  border-color: #ff7f00;
   border-top: 0;
 }
 .header_nav_menu li:nth-child(3).dropdown_menu .sub-menu li a {
