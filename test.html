@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Share your requirement</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+<div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+   <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+   <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads17421640000891860811 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory1742164000089186081()' accept-charset='UTF-8'>
+ <input type='text' style='display:none;' name='xnQsjsdp' value='89a4c4e1cd2b8d798a13869a512e0430f10d4e54011dc2ab6ecb48142704f733'> 
+ <input type='hidden' name='zc_gad' id='zc_gad' value=''> 
+ <input type='text' style='display:none;' name='xmIwtLD' value='c6e4fdd49e7ece532078ecf1f399f64df50cb866b9e4a25d99e61b0319c6b847'> 
+ <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='>
+ <input type='text' style='display:none;' name='returnURL' value='https://www.mobzway.games/thank-you.html' > 
+   <!-- Do not remove this code. -->
+
+<div class="row">
+
+<div class='col-md-12 mb-3'>
+  <div class='zcwf_col_fld'><input type='text' placeholder="Enter Name" id='Last_Namenew' class="forminput" name='Last Namenew' maxlength='80'>
+    <div class='zcwf_col_help'></div>
+  </div>
+</div>
+<div class='col-md-6 mb-3'><div class='zcwf_col_fld'>
+    <input type='text' ftype='email' id='Emailnew' placeholder="Email" class="forminput" name='Emailnew' maxlength='100'>
+    <div class='zcwf_col_help'></div>
+  </div>
+</div>
+<div class='col-md-6 mb-3'>
+  <div class='zcwf_col_fld'>
+    <input type='text' id='Mobilenew' placeholder="Mobile" class="forminput" name='Mobilenew' maxlength='30'>
+    <div class='zcwf_col_help'></div>
+  </div>
+</div>
+<div class='col-md-12 mb-3'>
+  <div class='zcwf_col_fld'>
+    <textarea id='Descriptionnew' placeholder="Requirement" name='Descriptionnew'></textarea>
+    <div class='zcwf_col_help'>
+      
+    </div>
+  </div>
+</div>
+<div class='col-md-12 mb-3'> 
+  <div class='zcwf_col_lab'></div>
+  <div class='zcwf_col_fld'><div class='g-recaptcha' data-sitekey='6LerTcAZAAAAAPCp-yqkRPmgR8ihu3CrcIZA0bD-' data-theme='light' data-callback='rccallback17421640000891860811' captcha-verified='false' id='recap17421640000891860811'>
+    
+  </div>
+  <div  id='recapErr17421640000891860811' style='font-size:12px;color:red;display:none;'>Captcha validation failed. If you are not a robot then please try again.</div>
+</div>
+</div>
+</div>
+
+<div class='row'><div class='zcwf_col_lab'></div>
+<div class='col-md-6 col-xs-6 col-6'>
+  <input type='submit' id='formsubmitnew' class='formsubmit zcwf_button forminput' value='Submit' title='Submit'>
+</div>
+<div class='col-md-6 col-xs-6 col-6'>
+<input type='reset' class='zcwf_button forminput' name='reset' value='Reset' title='Reset'>
+</div>
+</div>
+
+  
+  </form>
+</div>
+
+
+
+<script>
+
+  /* Do not remove this code. */
+  function rccallback17421640000891860811()
+  debugger
+  {
+    if(document.getElementById('recap17421640000891860811')!=undefined){
+      document.getElementById('recap17421640000891860811').setAttribute('captcha-verified',true);
+    }
+    if(document.getElementById('recapErr17421640000891860811')!=undefined && document.getElementById('recapErr17421640000891860811').style.visibility == 'visible' ){
+      document.getElementById('recapErr17421640000891860811').style.visibility='hidden';
+    }
+  }
+  function reCaptchaAlert17421640000891860811()
+  {
+    var recap = document.getElementById('recap17421640000891860811');
+    if( recap !=undefined && recap.getAttribute('captcha-verified') == 'false')
+    {
+      document.getElementById('recapErr17421640000891860811').style.visibility='visible';
+      return false;
+    }
+    return true;
+  }
+  function validateEmail1742164000089186081()
+  {
+    var form = document.forms['WebToLeads17421640000891860811'];
+    var emailFld = form.querySelectorAll('[ftype=email]');
+    var i;
+    for (i = 0; i < emailFld.length; i++)
+    {
+      var emailVal = emailFld[i].value;
+      if((emailVal.replace(/^\s+|\s+$/g, '')).length!=0 )
+      {
+        var atpos=emailVal.indexOf('@');
+        var dotpos=emailVal.lastIndexOf('.');
+        if (atpos<1 || dotpos<atpos+2 || dotpos+2>=emailVal.length)
+        {
+          alert('Please enter a valid email address. ');
+          emailFld[i].focus();
+          return false;
+        }
+      }
+    }
+    return true;
+  }
+
+    function checkMandatory1742164000089186081() {
+    var mndFileds = new Array('Last Name','Email');
+    var fldLangVal = new Array('Last\x20Name','Email');
+    for(i=0;i<mndFileds.length;i++) {
+      var fieldObj=document.forms['WebToLeads17421640000891860811'][mndFileds[i]];
+      if(fieldObj) {
+      if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+       if(fieldObj.type =='file')
+        { 
+         alert('Please select a file to upload.'); 
+         fieldObj.focus(); 
+         return false;
+        } 
+      alert(fldLangVal[i] +' cannot be empty.'); 
+              fieldObj.focus();
+              return false;
+      }  else if(fieldObj.nodeName=='SELECT') {
+             if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+        alert(fldLangVal[i] +' cannot be none.'); 
+        fieldObj.focus();
+        return false;
+         }
+      } else if(fieldObj.type =='checkbox'){
+       if(fieldObj.checked == false){
+        alert('Please accept  '+fldLangVal[i]);
+        fieldObj.focus();
+        return false;
+         } 
+       } 
+       try {
+           if(fieldObj.name == 'Last Name') {
+        name = fieldObj.value;
+          }
+      } catch (e) {}
+        }
+    }
+    if(!validateEmail1742164000089186081()){return false;}
+    
+    if(!reCaptchaAlert17421640000891860811()){return false;}
+    document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
+  }
+
+function tooltipShow17421640000891860811(el){
+  var tooltip = el.nextElementSibling;
+  var tooltipDisplay = tooltip.style.display;
+  if(tooltipDisplay == 'none'){
+    var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
+    for(i=0; i<allTooltip.length; i++){
+      allTooltip[i].style.display='none';
+    }
+    tooltip.style.display = 'block';
+  }else{
+    tooltip.style.display='none';
+  }
+}
+</script>
+<!-- Do not remove this --- Analytics Tracking code starts --><script id='wf_anal' src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=c6e4fdd49e7ece532078ecf1f399f64df50cb866b9e4a25d99e61b0319c6b847gid89a4c4e1cd2b8d798a13869a512e0430f10d4e54011dc2ab6ecb48142704f733gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513&tw=61690b96c1d0471b638f31426f38e68aa67fb7ed6da86f32dc10ad817fe55a0a'></script><!-- Do not remove this --- Analytics Tracking code ends. -->
+
+</body>
+</html>
