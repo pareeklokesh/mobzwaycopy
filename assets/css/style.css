@@ -1736,6 +1736,10 @@ opacity: 1 !important;
   border-color: #333;
   border-top: 0;
 }
+.header_nav_menu li:nth-child(3).dropdown_menu .sub-menu li a {
+  text-align: center;
+}
+
 
 
 
