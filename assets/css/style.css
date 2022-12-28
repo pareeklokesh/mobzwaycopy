@@ -581,7 +581,7 @@ background: #fff;opacity: 1;
   display: none;
 }
 .chat_btn {
-  transform: rotate(-90deg) translateY(92px);
+  transform: rotate(-90deg) translateY(104px);
   background: linear-gradient(95deg, rgb(110, 0, 163) 20%, rgb(110, 0, 163) 80%);
   border: 0;
   border-top-left-radius: 8px;
@@ -1725,6 +1725,16 @@ background-size: cover;background-color: rgba(0, 0, 0, 0.3);
 .fade {
   background: transparent !important;
 opacity: 1 !important;
+}
+.sub-menu {
+  min-width: 160px;
+}
+.right_modal.request_qoute h3 {
+  color: #000;
+}
+.right_modal.request_qoute .modal-content {
+  border-color: #333;
+  border-top: 0;
 }
 
 
