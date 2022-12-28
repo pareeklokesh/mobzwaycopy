@@ -48,13 +48,13 @@
       <a href="tel:7878 044 044" class="mb_desk align-items-center call_btn"><i class="fa fa-phone-alt"></i> 7878 044 044 <strong>Call Us Now!</strong></a>
       <ul class="header_top_contact">
         <li>
-          <a href="tel:+91-7597807070"><i class="fab fa-whatsapp"></i> +91-7597807070</a>
+          <a href="tel:+91-9116005595"><i class="fab fa-whatsapp"></i> +91-9116005595</a>
         </li>
         <li>
           <a href="tel:+91-7878-044-044"><i class="fa fa-phone-alt"></i>+91-7878-044-044</a>
         </li>
         <li>
-          <a href="mailto:sales@mobzway.com"><i class="fa fa-envelope"></i>sales@mobzway.com</a>
+          <a href="mailto:sales@mobzway.games"><i class="fa fa-envelope"></i>sales@mobzway.games</a>
         </li>
       </ul>
     </div>
@@ -747,10 +747,7 @@
         <a href="#"><i class="fa fa-phone-alt"></i> +91 – 7878044044</a>
       </li>
       <li>
-        <a href="#"><i class="fa fa-skype"></i> sales.mobzway</a>
-      </li>
-      <li>
-        <a href="#"><i class="fa fa-envelope"></i> sales@mobzway.com</a>
+        <a href="#"><i class="fa fa-envelope"></i> sales@mobzway.games</a>
       </li>
       <li>
         <a href="#"><i class="fa-solid fa-location-crosshairs"></i> 
@@ -814,9 +811,9 @@ Area Jaipur, (Raj) India
 <!-- Chat btn -->
 
 <button class="chat_btn chat_btn_dsk sharerequirment"  data-bs-toggle="modal" data-bs-target="#requestQoute"><i class="fa fa-envelope"></i> Share your requirement</button>
-<a href="https://api.whatsapp.com/send?phone=917597807070&text=" target="_blank" class="whatsapp_chat chat_btn_dsk" style="width: 50px;height: 50px;font-size: 30px;"><i class="fab fa-whatsapp"></i></a>
+<a href="https://api.whatsapp.com/send?phone=919116005595&text=" target="_blank" class="whatsapp_chat chat_btn_dsk" style="width: 50px;height: 50px;font-size: 30px;"><i class="fab fa-whatsapp"></i></a>
 <div class="container-fluid fix_chat">
-  <a href="https://api.whatsapp.com/send?phone=917597807070&text=" target="_blank" class="whatsapp_chat btn_chat"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://api.whatsapp.com/send?phone=919116005595&text=" target="_blank" class="whatsapp_chat btn_chat"><i class="fab fa-whatsapp"></i></a>
   <a href="#" class="whatsapp_chat btn_chat" style="background: #fcd10a;"><i class="fa fa-phone-alt" style="color: #000;"></i></a>
   <button class="chat_btn btn_chat"  data-bs-toggle="modal" data-bs-target="#sendusyourinquiry" style="background:#6e00a3;transform: none;box-shadow: none;"><i class="fa fa-envelope"></i></button>
 </div>
@@ -1129,7 +1126,16 @@ document.addEventListener('DOMContentLoaded', function () {
   
   var isAlreadyPopUp;
 
-  $(window).scroll(function () {
+  $(document).ready(function(){
+    if(!isAlreadyPopUp){
+
+      $("#requestQoute").modal('show'); /*else $("#requestQoute").hide("slow");*/
+          $("#requestQoute").addClass("right_modal");
+          $('#Last_Name').attr('placeholder', 'Enter Name');
+          $(".change-textmd").text("to discuss your idea?");
+    }
+  });
+  /*$(window).scroll(function () {
         if(!isAlreadyPopUp){
                 if ($(document).scrollTop() >= $(document).height() / 25)
             $("#requestQoute").modal('show'); else $("#requestQoute").hide("slow");
@@ -1137,9 +1143,9 @@ document.addEventListener('DOMContentLoaded', function () {
           $('#Last_Name').attr('placeholder', 'Enter Name');
           $(".change-textmd").text("to discuss your idea?");
          }
-    });
+    });*/
     function closeSPopup() {
-        $('#requestQoute').hide('slow');
+        $('#requestQoute').hide();
         isAlreadyPopUp=true;
         $("#requestQoute").removeClass("right_modal");
         $(".change-textmd").text("to discuss your game concept?");
