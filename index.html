@@ -643,38 +643,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h2 class="block_title" data-aos="fade-down"> We are just click away</h2>
   <div class="w-100">
 
-    <form class="footer_form" action="thank-you.html">
+    <form action="thank-you.html" id="footer-form-submit" method="post" class="footer_form" >
       <div class="d-flex">
   <div class="mb-3 w-50 pe-2">
     <label for="fullname" class="form-label">First name </label>
     <input type="text" class="form-control" id="fullname" aria-describedby="emailHelp">
+    <div class="error_message" id="name_error"></div>
   </div>
   <div class="mb-3 w-50 ps-2">
     <label for="lastname" class="form-label">Last name</label>
     <input type="text" class="form-control" id="lastname">
+
   </div>
 </div>
 <div class="d-flex">
   <div class="mb-3 w-50 pe-2">
     <label for="email" class="form-label">E-mail </label>
     <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+    <div class="error_message" id="email_error"></div>
   </div>
   <div class="mb-3 w-50 ps-2">
     <label for="mobile" class="form-label">Mobile</label>
     <input type="text" class="form-control" id="mobile">
+    <div class="error_message" id="phone_error"></div>
   </div>
 </div>
 
 <div class="mb-3">
     <label for="message" class="form-label">Message</label>
     <textarea rows="5" id="message" name="message" class="form-control" placeholder="Type message here..."></textarea>
+    <div class="error_message" id="msg_error"></div>
   </div>
 
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1"> Please confirm you <a href="#">consent</a> to your personal information being processed and shared with third parties</label>
   </div>
-  <button type="submit" class="btn submite_form">Submit <img src="assets/img/arrow-next.png" class="float-end" style="max-width: 17px;opacity: .4;"></button>
+  <button type="button" class="btn submite_form" onclick="validatefooter()">Submit <img src="assets/img/arrow-next.png" class="float-end" style="max-width: 17px;opacity: .4;"></button>
 </form>
   </div>
 </div>  
@@ -1315,6 +1320,54 @@ function tooltipShow1742164000089186081(el){
 </script>
 <!-- Do not remove this --- Analytics Tracking code starts --><script id='wf_anal' src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=c6e4fdd49e7ece532078ecf1f399f64df50cb866b9e4a25d99e61b0319c6b847gid89a4c4e1cd2b8d798a13869a512e0430f10d4e54011dc2ab6ecb48142704f733gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513&tw=61690b96c1d0471b638f31426f38e68aa67fb7ed6da86f32dc10ad817fe55a0a'></script><!-- Do not remove this --- Analytics Tracking code ends. -->
 <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "eabb0e3d391eac0117fa9bf72ff049ea112109b77902a58b79b51d5fcaeed15afeb79731b60e202192c2895c9acefb61", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+<script>
+  function validatefooter(){
+    debugger
+  var name = document.getElementById("fullname").value;
+  var message = document.getElementById("message").value;
+  var phone = document.getElementById("mobile").value;
+  var email = document.getElementById("email").value;
+  var error_message = document.getElementById("error_message");
+  
+  
+  var text;
+  if(name.length < 5){
+    text = "Please Enter valid Name";
+    $("#name_error").html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(email.indexOf("@") == -1 || email.length < 6){
+    text = "Please Enter valid Email";
+    $("#email_error").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(isNaN(phone) || phone.length != 10){
+    text = "Please Enter valid Phone Number";
+    $("#phone_error").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  if(message.length <= 140){
+    text = "Please Enter More Than 140 Characters";
+    $("#msg_error").show().html(text);
+    return false;
+  }
+  else{
+    $(".error_message").hide();
+  }
+  $("#footer-form-submit").submit();
+  //alert("Form Submitted Successfully!");
+  return true;
+}
+</script>
 
 </body>
 </html>
